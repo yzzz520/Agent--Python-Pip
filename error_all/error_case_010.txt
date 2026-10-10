@@ -1,0 +1,107 @@
+======================================================================
+PIP RUN METADATA
+======================================================================
+timestamp_utc : 2026-10-06T13:57:44.245297+00:00
+run_mode      : dry-run
+python        : D:\miniconda3\envs\agent_test\python.exe
+pip           : pip 26.2.1 from D:\miniconda3\envs\agent_test\lib\site-packages\pip (python 3.10)
+returncode    : 0
+duration_sec  : 22.89
+command       : D:\miniconda3\envs\agent_test\python.exe -m pip install -r D:\项目：Agent 工具调用失败归因与自动恢复系统\requirements_all\requirements_010.txt --disable-pip-version-check --no-input --dry-run
+======================================================================
+STDOUT
+======================================================================
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting scikit-build-core>=1.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 4))
+  Downloading scikit_build_core-1.1.1-py3-none-any.whl (293 kB)
+Collecting setuptools<82,>=77.0.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 5))
+  Downloading setuptools-81.0.0-py3-none-any.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 8.5 MB/s  0:00:00
+Collecting spin (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 6))
+  Downloading spin-0.18-py3-none-any.whl (32 kB)
+Collecting cmake>=3.27 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 7))
+  Downloading cmake-4.4.4-py3-none-win_amd64.whl (42.3 MB)
+     ---------------------------------------- 42.3/42.3 MB 19.0 MB/s  0:00:02
+Collecting ninja (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 8))
+  Downloading ninja-1.13.2-py3-none-win_amd64.whl (311 kB)
+Collecting numpy (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 9))
+  Downloading numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+     ---------------------------------------- 12.9/12.9 MB 20.2 MB/s  0:00:00
+Requirement already satisfied: packaging>=24.2 in d:\miniconda3\envs\agent_test\lib\site-packages (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 10)) (26.3)
+Collecting pyyaml (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 11))
+  Downloading pyyaml-6.0.3-cp310-cp310-win_amd64.whl (158 kB)
+Collecting requests (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 12))
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting six (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 13))
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting typing-extensions>=4.15.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 14))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Requirement already satisfied: pip in d:\miniconda3\envs\agent_test\lib\site-packages (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 15)) (26.2.1)
+Collecting expecttest>=0.3.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 8))
+  Downloading expecttest-0.3.0-py3-none-any.whl (8.2 kB)
+Collecting filelock (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 9))
+  Downloading filelock-4.0.12-py3-none-any.whl (111 kB)
+Collecting fsspec>=0.8.5 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 10))
+  Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Collecting hypothesis (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 11))
+  Downloading hypothesis-6.168.5-cp310-cp310-win_amd64.whl (684 kB)
+     ---------------------------------------- 684.6/684.6 kB 13.6 MB/s  0:00:00
+Collecting jinja2 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 12))
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting lintrunner (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 13))
+  Downloading lintrunner-0.13.1-py3-none-win_amd64.whl (1.7 MB)
+     ---------------------------------------- 1.7/1.7 MB 3.6 MB/s  0:00:00
+Collecting networkx>=2.5.1 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 14))
+  Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+     ---------------------------------------- 1.7/1.7 MB 18.7 MB/s  0:00:00
+Collecting optree>=0.13.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 15))
+  Downloading optree-0.20.0-cp310-cp310-win_amd64.whl (548 kB)
+     ---------------------------------------- 548.0/548.0 kB 17.9 MB/s  0:00:00
+Collecting psutil (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 16))
+  Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)
+Collecting sympy>=1.13.3 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 18))
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ---------------------------------------- 6.3/6.3 MB 20.3 MB/s  0:00:00
+Requirement already satisfied: wheel in d:\miniconda3\envs\agent_test\lib\site-packages (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 19)) (0.47.0)
+Collecting build[uv] (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 7))
+  Downloading build-1.6.1-py3-none-any.whl (31 kB)
+Collecting exceptiongroup>=1.0 (from scikit-build-core>=1.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 4))
+  Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting pathspec>=0.12.0 (from scikit-build-core>=1.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 4))
+  Downloading pathspec-1.1.1-py3-none-any.whl (57 kB)
+Collecting tomli>=1.2.2 (from scikit-build-core>=1.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 4))
+  Downloading tomli-2.4.1-py3-none-any.whl (14 kB)
+Collecting click!=8.3.0,<8.4,>=8 (from spin->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 6))
+  Downloading click-8.3.3-py3-none-any.whl (110 kB)
+Collecting colorama (from spin->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 6))
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting importlib_metadata>=7 (from spin->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 6))
+  Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+Collecting charset_normalizer<4,>=2 (from requests->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 12))
+  Downloading charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl (215 kB)
+Collecting idna<4,>=2.5 (from requests->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 12))
+  Downloading idna-3.20-py3-none-any.whl (69 kB)
+Collecting urllib3<3,>=1.26 (from requests->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 12))
+  Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Collecting certifi>=2023.5.7 (from requests->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 12))
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Collecting pyproject_hooks (from build[uv]->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 7))
+  Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+Collecting uv>=0.1.18 (from build[uv]->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 7))
+  Downloading uv-0.12.23-py3-none-win_amd64.whl (18.1 MB)
+     ---------------------------------------- 18.1/18.1 MB 10.7 MB/s  0:00:01
+Collecting sortedcontainers<3.0.0,>=2.1.0 (from hypothesis->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 11))
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 12))
+  Downloading markupsafe-3.0.4-cp310-cp310-win_amd64.whl (14 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_010.txt (line 18))
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ---------------------------------------- 536.2/536.2 kB 8.8 MB/s  0:00:00
+Collecting zipp>=3.20 (from importlib_metadata>=7->spin->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\support\case_010\requirements-build.txt (line 6))
+  Downloading zipp-4.1.1-py3-none-any.whl (10 kB)
+Would install Jinja2-3.1.6 MarkupSafe-3.0.4 PyYAML-6.0.3 build-1.6.1 certifi-2026.7.22 charset-normalizer-3.5.2 click-8.3.3 cmake-4.4.4 colorama-0.4.6 exceptiongroup-1.3.1 expecttest-0.3.0 filelock-4.0.12 fsspec-2026.9.0 hypothesis-6.168.5 idna-3.20 importlib_metadata-9.0.1 lintrunner-0.13.1 mpmath-1.3.0 networkx-3.4.2 ninja-1.13.2 numpy-2.2.6 optree-0.20.0 pathspec-1.1.1 psutil-7.2.2 pyproject_hooks-1.3.3 requests-2.34.2 scikit_build_core-1.1.1 setuptools-81.0.0 six-1.17.0 sortedcontainers-2.4.0 spin-0.18 sympy-1.14.0 tomli-2.4.1 typing_extensions-4.16.0 urllib3-2.8.0 uv-0.12.23 zipp-4.1.1
+
+======================================================================
+STDERR
+======================================================================
+

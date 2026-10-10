@@ -1,0 +1,391 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting langchain-chroma==0.2.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3d/f9/705820c4792540383d4cf9c96fc55784fbd972897f5e84e3160001aba51d/langchain_chroma-0.2.5-py3-none-any.whl (12 kB)
+Collecting langchain-google-alloydb-pg==0.12.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a9/b7/f0665937f11d40025cb485d3082452b1fb0696d61b665549f0b0d6a7c5a9/langchain_google_alloydb_pg-0.12.0-py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.5/60.5 kB 1.1 MB/s eta 0:00:00
+Collecting langchain-pinecone==0.2.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/96/9c/86eb3f30f25d26a442188c6766695bbd88260a5a86d9e735d0f0d5ad9a30/langchain_pinecone-0.2.3-py3-none-any.whl (11 kB)
+Collecting numpy==1.26.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/19/77/538f202862b9183f54108557bfda67e17603fc560c384559e769321c9d92/numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+     --------------------------------------- 15.8/15.8 MB 11.3 MB/s eta 0:00:00
+Collecting langchain-core>=0.3.70
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/90/10/8c00b4dc094886314c907ec7ead258dfee28948cf44175976cc4fba9aba8/langchain_core-1.6.6-py3-none-any.whl (572 kB)
+     ------------------------------------- 572.1/572.1 kB 12.2 MB/s eta 0:00:00
+Collecting chromadb>=1.0.9
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/eb/ce/0f7be6e5d0feafa2cda54b12e6542afeea7dea89d2d411e14da90f8abb96/chromadb-1.5.9-cp39-abi3-win_amd64.whl (23.5 MB)
+     --------------------------------------- 23.5/23.5 MB 19.2 MB/s eta 0:00:00
+Collecting google-cloud-alloydb-connector[asyncpg]<2.0.0,>=1.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f4/8b/10e18b9c2ed7cce72d5820ecef9e389158636884424dbed038c3879338ef/google_cloud_alloydb_connector-1.14.0-py3-none-any.whl (47 kB)
+     ---------------------------------------- 47.7/47.7 kB 2.3 MB/s eta 0:00:00
+Collecting SQLAlchemy[asyncio]<3.0.0,>=2.0.25
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f5/f6/4247fdd087bf1b39be90930bb2b276a1c55041540628c8736512b4242669/sqlalchemy-2.0.54-cp310-cp310-win_amd64.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 23.0 MB/s eta 0:00:00
+Collecting google-cloud-storage<4.0.0,>=2.18.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/47/bf/1a0f5f7fc1d4af8b95fc1da72d3cfe84ac709ef4dcabfd2182ef9cfe3a7a/google_cloud_storage-3.16.0-py3-none-any.whl (343 kB)
+     ------------------------------------- 343.5/343.5 kB 22.2 MB/s eta 0:00:00
+Collecting langchain-core>=0.3.70
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0c/93/ba19ca54701c6118e68f8785949b6c0eab1df3a5cfa5310508cc86877994/langchain_core-0.3.86-py3-none-any.whl (461 kB)
+     ------------------------------------- 461.3/461.3 kB 14.6 MB/s eta 0:00:00
+Collecting pgvector<1.0.0,>=0.2.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5c/e4/a5573f2c579ca9ad133293bfb624148ba0893674ca4a6eeec85ced9a6a09/pgvector-0.5.0-py3-none-any.whl (30 kB)
+Collecting pinecone<6.0.0,>=5.4.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2f/a4/f7214bf02bb2edb29778e35fa6e73e2d188c403e6d9c2b6945f660a776b3/pinecone-5.4.2-py3-none-any.whl (427 kB)
+     ------------------------------------- 427.3/427.3 kB 13.0 MB/s eta 0:00:00
+Collecting aiohttp<3.11,>=3.10
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0f/c6/ca5d70eea2fdbe283dbc1e7d30649a1a5371b2a2a9150db192446f645789/aiohttp-3.10.11-cp310-cp310-win_amd64.whl (382 kB)
+     ------------------------------------- 382.2/382.2 kB 12.0 MB/s eta 0:00:00
+Collecting langchain-tests<1.0.0,>=0.3.7
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/09/8c/c240ef03e21f8c945f8d24e0e71b84b8c0c5bdb3ae5cf3511e2680bd80a3/langchain_tests-0.3.22-py3-none-any.whl (49 kB)
+     ---------------------------------------- 49.4/49.4 kB 2.6 MB/s eta 0:00:00
+Collecting aiosignal>=1.1.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Collecting attrs>=17.3.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl (67 kB)
+     ---------------------------------------- 67.5/67.5 kB ? eta 0:00:00
+Collecting async-timeout<6.0,>=4.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fe/ba/e2081de779ca30d473f21f5b30e0e737c438205440784c7dfc81efc2b029/async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Collecting yarl<2.0,>=1.12.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/42/67/cb5ea1baa0c0ac60bda44ce59f601133154af2a2e67722d3517f8793855d/yarl-1.25.1-cp310-cp310-win_amd64.whl (102 kB)
+     -------------------------------------- 102.9/102.9 kB 5.8 MB/s eta 0:00:00
+Collecting frozenlist>=1.1.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/66/aa/3f04523fb189a00e147e60c5b2205126118f216b0aa908035c45336e27e4/frozenlist-1.8.0-cp310-cp310-win_amd64.whl (43 kB)
+     ---------------------------------------- 43.8/43.8 kB 2.2 MB/s eta 0:00:00
+Collecting aiohappyeyeballs>=2.3.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/43/1947f06babed6b3f1d7f38b0c767f52df66bfb2bc10b468c4a7de9eceff2/aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Collecting multidict<7.0,>=4.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ae/18/10c008aac77297aa618631e8726ece31668f9dc9d9c848e4b5d2e68eb3d3/multidict-6.9.1-cp310-cp310-win_amd64.whl (59 kB)
+     ---------------------------------------- 59.0/59.0 kB 3.1 MB/s eta 0:00:00
+Collecting jsonschema>=4.19.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl (90 kB)
+     ---------------------------------------- 90.6/90.6 kB ? eta 0:00:00
+Collecting orjson>=3.9.12
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ce/0e/ea0f4a563253b6363195a4f704123c6bfbf156641bd3be5a75de81c5e917/orjson-3.12.0-cp310-cp310-win_amd64.whl (122 kB)
+     -------------------------------------- 122.2/122.2 kB 7.0 MB/s eta 0:00:00
+Collecting importlib-resources
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8a/db/55a262f3606bebcae07cc14095338471ad7c0bbcaa37707e6f0ee49725b7/importlib_resources-7.1.0-py3-none-any.whl (37 kB)
+Collecting tenacity>=8.2.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d7/c1/eb8f9debc45d3b7918a32ab756658a0904732f75e555402972246b0b8e71/tenacity-9.1.4-py3-none-any.whl (28 kB)
+Collecting opentelemetry-sdk>=1.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8a/ae/46963201ce58d6b86f9e54087a39720a35ac9f57c3a9e440d275995c2b02/opentelemetry_sdk-1.45.0-py3-none-any.whl (140 kB)
+     -------------------------------------- 140.1/140.1 kB 8.1 MB/s eta 0:00:00
+Collecting mmh3>=4.0.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/26/f1/7864702203a83f931568125516ea1ed68b6dec0068d00b1e97cec24e4766/mmh3-5.3.1-cp310-cp310-win_amd64.whl (41 kB)
+     ---------------------------------------- 41.7/41.7 kB 2.1 MB/s eta 0:00:00
+Collecting opentelemetry-api>=1.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/44/b9/040d1a1c7836922828e6480cd2366bb8fe0ebf75b413d2bb51a9b0e7f78f/opentelemetry_api-1.45.0-py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.0/60.0 kB 3.1 MB/s eta 0:00:00
+Collecting rich>=10.11.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl (310 kB)
+     ------------------------------------- 310.7/310.7 kB 20.0 MB/s eta 0:00:00
+Collecting tqdm>=4.65.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl (80 kB)
+     ---------------------------------------- 80.2/80.2 kB ? eta 0:00:00
+Collecting kubernetes>=28.1.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5b/30/a96d47df739689ac0001ade0afefc16e3b477fc2fb426b568515fdc8afce/kubernetes-36.0.3-py2.py3-none-any.whl (4.6 MB)
+     ---------------------------------------- 4.6/4.6 MB 24.6 MB/s eta 0:00:00
+Collecting tokenizers>=0.13.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/0a69ac6b82dbccf3f71add938a161c497952749294b8dd6dfe03a819dc40/tokenizers-0.23.2-cp310-abi3-win_amd64.whl (2.9 MB)
+     ---------------------------------------- 2.9/2.9 MB 7.9 MB/s eta 0:00:00
+Collecting pybase64>=1.4.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b4/ab/cfd975ace05c2463f9f75c72f214a9e1265e49120a04db08cf405bcc7929/pybase64-1.5.1-cp310-cp310-win_amd64.whl (44 kB)
+     ---------------------------------------- 44.5/44.5 kB 2.1 MB/s eta 0:00:00
+Collecting pypika>=0.48.9
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/57/83/c77dfeed04022e8930b08eedca2b6e5efed256ab3321396fde90066efb65/pypika-0.51.1-py2.py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.6/60.6 kB ? eta 0:00:00
+Collecting pydantic>=2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl (472 kB)
+     ------------------------------------- 472.6/472.6 kB 14.9 MB/s eta 0:00:00
+Collecting pydantic-settings>=2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl (69 kB)
+     ---------------------------------------- 69.4/69.4 kB 3.9 MB/s eta 0:00:00
+Collecting onnxruntime>=1.14.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cd/6d/738e50c47c2fd285b1e6c8083f15dac1a5f6199213378a5f14092497296d/onnxruntime-1.23.2-cp310-cp310-win_amd64.whl (13.5 MB)
+     --------------------------------------- 13.5/13.5 MB 25.1 MB/s eta 0:00:00
+Collecting bcrypt>=4.0.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9f/b9/9d9a641194a730bda138b3dfe53f584d61c58cd5230e37566e83ec2ffa0d/bcrypt-5.0.0-cp39-abi3-win_amd64.whl (150 kB)
+     -------------------------------------- 150.9/150.9 kB 4.5 MB/s eta 0:00:00
+Collecting typer>=0.9.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/dc/bf/205d0004930ede8f542fb58f601526fccf4ae7626075ca1e6c4de5d3d652/typer-0.27.2-py3-none-any.whl (123 kB)
+     ---------------------------------------- 123.1/123.1 kB ? eta 0:00:00
+Collecting uvicorn[standard]>=0.18.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/38/0c/b54a4fdd7f90a3af8b02ebc9ce6712c2c208b7926a2f7bad95c33ebbe943/uvicorn-0.54.0-py3-none-any.whl (87 kB)
+     ---------------------------------------- 87.4/87.4 kB 5.1 MB/s eta 0:00:00
+Collecting pyyaml>=6.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2a/fa/926c003379b19fca39dd4634818b00dec6c62d87faf628d1394e137354d4/pyyaml-6.0.3-cp310-cp310-win_amd64.whl (158 kB)
+     -------------------------------------- 158.6/158.6 kB 4.6 MB/s eta 0:00:00
+Collecting opentelemetry-exporter-otlp-proto-grpc>=1.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c7/f3/f0432f1a44f6c4a649755c1865a1143ba7dbfc56b5128262cee9cf90818e/opentelemetry_exporter_otlp_proto_grpc-1.45.0-py3-none-any.whl (19 kB)
+Collecting build>=1.0.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ad/9b/9fb3585dabcd73a1b2a6267f63f62649347c9e6d072c9fde365b105abb2c/build-1.6.1-py3-none-any.whl (31 kB)
+Collecting typing-extensions>=4.5.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+     ---------------------------------------- 45.6/45.6 kB 2.4 MB/s eta 0:00:00
+Collecting overrides>=7.3.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2c/ab/fc8290c6a4c722e5514d80f62b2dc4c4df1a68a41d1364e625c35990fcf3/overrides-7.7.0-py3-none-any.whl (17 kB)
+Collecting grpcio>=1.58.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/31/ff/dc048bc3d8ebd8d4b7f6f6803c76142a9a5ca1e1e9fa34e79597f0f9ed77/grpcio-1.84.0-cp310-cp310-win_amd64.whl (5.3 MB)
+     ---------------------------------------- 5.3/5.3 MB 10.5 MB/s eta 0:00:00
+Collecting httpx>=0.27.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl (73 kB)
+     ---------------------------------------- 73.5/73.5 kB 4.0 MB/s eta 0:00:00
+Collecting aiofiles
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/bc/8a/340a1555ae33d7354dbca4faa54948d76d89a27ceef032c8c3bc661d003e/aiofiles-25.1.0-py3-none-any.whl (14 kB)
+Collecting requests
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl (73 kB)
+     ---------------------------------------- 73.1/73.1 kB 4.2 MB/s eta 0:00:00
+Collecting google-api-core
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/18/93/98877c3d38474e3c4a8f9149e4b63c31f9e474abf09def1cada7489bfeaa/google_api_core-2.41.0-py3-none-any.whl (215 kB)
+     ---------------------------------------- 215.6/215.6 kB ? eta 0:00:00
+Collecting protobuf
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8a/55/b77bda4e5e5f5971fb51b07663694690e9afdb9402136c16a522bd621cad/protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+     ------------------------------------- 456.5/456.5 kB 29.8 MB/s eta 0:00:00
+Collecting google-auth
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2c/f5/7e1770bb548086797ad936ffe7be3d0438f7066ff39982a7763bbb54ccb4/google_auth-2.60.0-py3-none-any.whl (264 kB)
+     ------------------------------------- 264.6/264.6 kB 15.9 MB/s eta 0:00:00
+Collecting google-cloud-alloydb
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/4e/0c/5a5bb24da42e7a452307623eecf6b8991cdca0bf2020cc9daa9f8bdfd949/google_cloud_alloydb-0.11.3-py3-none-any.whl (532 kB)
+     -------------------------------------- 532.4/532.4 kB 8.3 MB/s eta 0:00:00
+Collecting cryptography>=46.0.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f6/b6/a1faf3a27ae9405fb34b1713cc73b2d8a26b04d5c561578fa2e6ef3e5bb9/cryptography-50.0.2-cp39-abi3-win_amd64.whl (3.9 MB)
+     ---------------------------------------- 3.9/3.9 MB 24.6 MB/s eta 0:00:00
+Collecting asyncpg>=0.31.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/20/b4/9fbb4b0af4e36d96a61d026dd37acab3cf521a70290a09640b215da5ab7c/asyncpg-0.31.0-cp310-cp310-win_amd64.whl (581 kB)
+     ------------------------------------- 581.6/581.6 kB 12.2 MB/s eta 0:00:00
+Collecting google-resumable-media<3.0.0,>=2.7.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5e/2e/4f0a152f2e576e496f31ba1c3c62ed174a8878d06008916a7edc58b1bb28/google_resumable_media-2.11.0-py3-none-any.whl (81 kB)
+     ---------------------------------------- 81.5/81.5 kB 2.3 MB/s eta 0:00:00
+Collecting google-cloud-core<3.0.0,>=2.4.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/12/ed/1b09640a565e5d34d4e517463f65a67a11f9dcdeb6b6e8220f2d06aaf489/google_cloud_core-2.8.0-py3-none-any.whl (31 kB)
+Collecting google-crc32c<2.0.0,>=1.6.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b8/f3/181945217690644aa502220a3ec9bf0d2ef9af930bbfffee555fe5236e2f/google_crc32c-1.9.0-cp310-cp310-win_amd64.whl (35 kB)
+Collecting langsmith<1.0.0,>=0.3.45
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e4/1f/5c2919fef6e3cf15167699abeb069a371d68da14a0e5cab89eeea11261d7/langsmith-0.14.4-py3-none-any.whl (813 kB)
+     ------------------------------------- 813.1/813.1 kB 25.9 MB/s eta 0:00:00
+Collecting uuid-utils<1.0,>=0.12.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f2/24/d8b81080e0f21e29fe75545ea318985acb3e079c0aabedceded7424ae6c2/uuid_utils-0.17.1-cp310-cp310-win_amd64.whl (179 kB)
+     -------------------------------------- 179.1/179.1 kB 5.3 MB/s eta 0:00:00
+Collecting packaging<26.0.0,>=23.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl (66 kB)
+     ---------------------------------------- 66.5/66.5 kB 1.8 MB/s eta 0:00:00
+Collecting jsonpatch<2.0.0,>=1.33.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/73/07/02e16ed01e04a374e644b575638ec7987ae846d25ad97bcc9945a3ee4b0e/jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Collecting pytest-asyncio<2.0.0,>=0.20.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/03/e2/08a497ef684b88559c9cc5f4ad53a37e7b99e727094a86d6ea32536d5d3c/pytest_asyncio-1.4.0-py3-none-any.whl (16 kB)
+Collecting pytest-codspeed
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c5/b2/1d2a993c532146dce9eca5b5942d51898021c3579ce18b2454f932a915f8/pytest_codspeed-5.0.3-py3-none-any.whl (74 kB)
+     ---------------------------------------- 74.0/74.0 kB 2.0 MB/s eta 0:00:00
+Collecting pytest-socket<1.0.0,>=0.7.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/87/ef/ab507f117b3d19b54e3c9c632a99c28c3b284562ec6e02e274581d530d92/pytest_socket-0.8.1-py3-none-any.whl (8.8 kB)
+Collecting syrupy<5.0.0,>=4.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ec/9d/aef9ec5fd5a4ee2f6a96032c4eda5888c5c7cec65cef6b28c4fc37671d88/syrupy-4.9.1-py3-none-any.whl (52 kB)
+     ---------------------------------------- 52.2/52.2 kB 1.4 MB/s eta 0:00:00
+Collecting pytest-benchmark
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/eb/42/7e80f7cfa191e0a766d1de99b4661847415ad5db34f8209d81fd42175b59/pytest_benchmark-5.3.0-py3-none-any.whl (48 kB)
+     ---------------------------------------- 48.4/48.4 kB 1.2 MB/s eta 0:00:00
+Collecting pytest-recording
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/62/f1/7cb1ed94d6d37a585e28951a3f34af8bea09cd7c0cad562345b150489f60/pytest_recording-0.14.0-py3-none-any.whl (13 kB)
+Collecting vcrpy<8.0.0,>=7.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/13/5d/1f15b252890c968d42b348d1e9b0aa12d5bf3e776704178ec37cceccdb63/vcrpy-7.0.0-py2.py3-none-any.whl (42 kB)
+     ---------------------------------------- 42.3/42.3 kB ? eta 0:00:00
+Collecting pytest<9.0.0,>=7.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a8/a4/20da314d277121d6534b3a980b29035dcd51e6744bd79075a6ce8fa4eb8d/pytest-8.4.2-py3-none-any.whl (365 kB)
+     ---------------------------------------- 365.8/365.8 kB ? eta 0:00:00
+Collecting python-dateutil>=2.5.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ------------------------------------- 229.9/229.9 kB 14.6 MB/s eta 0:00:00
+Collecting certifi>=2019.11.17
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl (136 kB)
+     -------------------------------------- 137.0/137.0 kB 4.1 MB/s eta 0:00:00
+Collecting pinecone-plugin-interface<0.0.8,>=0.0.7
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3b/1d/a21fdfcd6d022cb64cef5c2a29ee6691c6c103c4566b41646b080b7536a5/pinecone_plugin_interface-0.0.7-py3-none-any.whl (6.2 kB)
+Collecting pinecone-plugin-inference<4.0.0,>=2.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/89/45/4ae4e38439919584c2d34b6bef5d0ef8d068030871dd4da911d174840ee6/pinecone_plugin_inference-3.1.0-py3-none-any.whl (87 kB)
+     ---------------------------------------- 87.5/87.5 kB 4.8 MB/s eta 0:00:00
+Collecting urllib3>=1.26.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl (135 kB)
+     ---------------------------------------- 135.7/135.7 kB ? eta 0:00:00
+Collecting greenlet>=1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7a/33/c57855a6abada0c7bfb9c6c0f33df1fbed8e5224708478dbcdff6c5db490/greenlet-3.5.6-cp310-cp310-win_amd64.whl (322 kB)
+     ------------------------------------- 322.9/322.9 kB 20.8 MB/s eta 0:00:00
+Collecting tomli>=1.1.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7b/61/cceae43728b7de99d9b847560c262873a1f6c98202171fd5ed62640b494b/tomli-2.4.1-py3-none-any.whl (14 kB)
+Collecting colorama
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting pyproject_hooks
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/85/11/044d1ae1b4ec0d7af88ee5bc91e081be1022533032b906a7bdabdbb60977/pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+Collecting cffi>=2.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ba/0b/644a2ec1a4eaba49c2939410bb1eb1d25b09d6d0582f5d2f95c537043725/cffi-2.1.1-cp310-cp310-win_amd64.whl (185 kB)
+     ------------------------------------- 185.1/185.1 kB 11.7 MB/s eta 0:00:00
+Collecting proto-plus<2.0.0,>=1.26.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b1/05/a3ef5b1161498e7b5a2a60288a9cf41b9149e94555423a43ec536737ac1a/proto_plus-1.29.0-py3-none-any.whl (50 kB)
+     ---------------------------------------- 50.8/50.8 kB 1.3 MB/s eta 0:00:00
+Collecting googleapis-common-protos<2.0.0,>=1.69.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/65/b9/6b29500a1c581ff4d77fd83c6568d068bee06f1b139fb6eb0a4f2d4bce8a/googleapis_common_protos-1.75.5-py3-none-any.whl (307 kB)
+     ------------------------------------- 307.7/307.7 kB 18.6 MB/s eta 0:00:00
+Collecting pyasn1-modules>=0.2.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/47/8d/d529b5d697919ba8c11ad626e835d4039be708a35b0d22de83a269a6682c/pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+     ------------------------------------- 181.3/181.3 kB 11.4 MB/s eta 0:00:00
+Collecting anyio
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl (132 kB)
+     -------------------------------------- 132.1/132.1 kB 7.6 MB/s eta 0:00:00
+Collecting httpcore==1.*
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl (78 kB)
+     ---------------------------------------- 78.8/78.8 kB ? eta 0:00:00
+Collecting idna
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl (69 kB)
+     ---------------------------------------- 69.6/69.6 kB 3.7 MB/s eta 0:00:00
+Collecting h11>=0.16
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting jsonpointer>=1.9
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9e/6a/a83720e953b1682d2d109d3c2dbb0bc9bf28cc1cbc205be4ef4be5da709d/jsonpointer-3.1.1-py3-none-any.whl (7.7 kB)
+Collecting rpds-py>=0.25.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/96/cb/156d7a5cf4f78a7cc571465d8aec7a3c447c94f6749c5123f08438bcf7bc/rpds_py-0.30.0-cp310-cp310-win_amd64.whl (235 kB)
+     ------------------------------------- 235.8/235.8 kB 14.1 MB/s eta 0:00:00
+Collecting referencing>=0.28.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl (26 kB)
+Collecting jsonschema-specifications>=2023.03.6
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Collecting six>=1.9.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting requests-oauthlib
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3b/5d/63d4ae3b9daea098d5d6f5da83984853c1bbacd5dc826764b249fe119d24/requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
+Collecting kubernetes>=28.1.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/46/2c/5c160dbdef7123f8cc97fd8ece7e0198627a426a2a49614845e9086feb8d/kubernetes-36.0.2-py2.py3-none-any.whl (4.6 MB)
+     ---------------------------------------- 4.6/4.6 MB 26.8 MB/s eta 0:00:00
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/92/6b/62f3d6cd024b1d0cfe8a87189b3562a4bb2dc581279056ccfd8cc233c556/kubernetes-36.0.1-py2.py3-none-any.whl (4.6 MB)
+     ---------------------------------------- 4.6/4.6 MB 24.6 MB/s eta 0:00:00
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cd/d2/6f99ca9c7eb961dfdd45b9643101399a8ee20922c662c362c91e9cc7e832/kubernetes-36.0.0-py2.py3-none-any.whl (4.7 MB)
+     ---------------------------------------- 4.7/4.7 MB 24.9 MB/s eta 0:00:00
+Collecting durationpy>=0.7
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e6/c4/ebdf7837bc4ef6fd98cfb013c28855bb358467bf86c1af011bbc21e21df0/durationpy-0.11-py3-none-any.whl (4.1 kB)
+Collecting websocket-client!=0.40.0,!=0.41.*,!=0.42.*,>=0.32.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d5/d2/cc4dc1271e464942db7ee278baae2daa99ee77cb2af744025c04da585a3e/websocket_client-1.9.2-py3-none-any.whl (95 kB)
+     ---------------------------------------- 95.8/95.8 kB ? eta 0:00:00
+Collecting websockets>=15.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/54/82/1013a5fe7ddae8e102bc3b4b39db81d8d28fd02100a324ce6ede8cd832b1/websockets-16.1.1-cp310-cp310-win_amd64.whl (180 kB)
+     ------------------------------------- 180.2/180.2 kB 10.6 MB/s eta 0:00:00
+Collecting requests-toolbelt>=1.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+     ---------------------------------------- 54.5/54.5 kB ? eta 0:00:00
+Collecting zstandard>=0.23.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/93/90/96d50ad417a8ace5f841b3228e93d1bb13e6ad356737f42e2dde30d8bd68/zstandard-0.25.0-cp310-cp310-win_amd64.whl (506 kB)
+     ------------------------------------- 506.1/506.1 kB 15.5 MB/s eta 0:00:00
+Collecting sniffio>=1.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl (10 kB)
+Collecting httpx2<3,>=2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d8/9c/6fe8931fd9f381042a9e4c7d5a7b4cbf7016b252bec0c99a49fce42c3326/httpx2-2.13.1-py3-none-any.whl (95 kB)
+     ---------------------------------------- 95.6/95.6 kB 1.8 MB/s eta 0:00:00
+Collecting xxhash>=3.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6c/9b/4e8384b299b40664a225ce9deef54c42b3d59f5181a16d4a374ea3503f8f/xxhash-4.0.1-cp310-cp310-win_amd64.whl (37 kB)
+Collecting distro>=1.7.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/12/b3/231ffd4ab1fc9d679809f356cebee130ac7daa00d6d6f3206dd4fd137e9e/distro-1.9.0-py3-none-any.whl (20 kB)
+Collecting coloredlogs
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+     ---------------------------------------- 46.0/46.0 kB 2.2 MB/s eta 0:00:00
+Collecting sympy
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ---------------------------------------- 6.3/6.3 MB 25.2 MB/s eta 0:00:00
+Collecting flatbuffers
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Collecting opentelemetry-exporter-otlp-proto-common==1.45.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f0/bf/3e21917368a81282ce9fc6d085a944dcaea6eed19de7d29cc979375db347/opentelemetry_exporter_otlp_proto_common-1.45.0-py3-none-any.whl (15 kB)
+Collecting opentelemetry-proto==1.45.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6b/45/814d55714507c7ce9c9cd86a4f83ceb5a74ab0bffcc63ff493943f138de2/opentelemetry_proto-1.45.0-py3-none-any.whl (72 kB)
+     ---------------------------------------- 72.5/72.5 kB 1.9 MB/s eta 0:00:00
+Collecting opentelemetry-exporter-otlp-common==0.66b0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c3/a9/b6a7a9d40ba99ed71b18e17310339024b086578f5f32162df1c1c0cf6270/opentelemetry_exporter_otlp_common-0.66b0-py3-none-any.whl (12 kB)
+Collecting opentelemetry-semantic-conventions==0.66b0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f4/93/2ad416d69c4ca8fd21ebc6894f23f4eda744dc6f43a14d7a9ffd7ed3abbd/opentelemetry_semantic_conventions-0.66b0-py3-none-any.whl (206 kB)
+     ------------------------------------- 206.3/206.3 kB 12.3 MB/s eta 0:00:00
+Collecting typing-inspection>=0.4.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Collecting annotated-types>=0.6.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f2/94/205ed9d7ddaf44acd489889708ea124a3f41bdb42c141c8684d528ad0e7a/pydantic_core-2.46.5-cp310-cp310-win_amd64.whl (2.0 MB)
+     ---------------------------------------- 2.0/2.0 MB 21.6 MB/s eta 0:00:00
+Collecting python-dotenv>=0.21.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/60/d1/38f3a3405989a89ac18390803e70c6ad7c7760da4f9b83cbeca0c44a0c72/python_dotenv-1.2.4-py3-none-any.whl (23 kB)
+Collecting exceptiongroup>=1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8a/0e/97c33bf5009bdbac74fd2beace167cab3f978feb69cc36f1ef79360d6c4e/exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting pygments>=2.7.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ---------------------------------------- 1.3/1.3 MB 27.0 MB/s eta 0:00:00
+Collecting iniconfig>=1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Collecting pluggy<2,>=1.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl (20 kB)
+Collecting backports-asyncio-runner<2,>=1.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a0/59/76ab57e3fe74484f48a53f8e337171b4a2349e506eabe136d7e01d059086/backports_asyncio_runner-1.2.0-py3-none-any.whl (12 kB)
+Collecting charset_normalizer<4,>=2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ae/ab/fb8b5178fdf7bf68efa61cbe892286bc9f73846f26147d4725fb89388475/charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl (215 kB)
+     -------------------------------------- 215.4/215.4 kB 1.2 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+     ---------------------------------------- 91.7/91.7 kB ? eta 0:00:00
+Collecting huggingface-hub<2.0,>=0.16.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fc/16/963096d224b80909432dc16561a615fd33d2d13beef3ce4c63fa25e40867/huggingface_hub-1.33.0-py3-none-any.whl (846 kB)
+     ------------------------------------- 846.4/846.4 kB 27.0 MB/s eta 0:00:00
+Collecting shellingham>=1.3.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting annotated-doc>=0.0.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3e/30/e900b21425a860e195f32e37657aa1f7c7f2b1bfb26f03ca209b90933c06/annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting click>=7.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl (125 kB)
+     -------------------------------------- 125.3/125.3 kB 2.4 MB/s eta 0:00:00
+Collecting watchfiles>=0.20
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/48/a1/1c4a1b3c8030cd03206232612be8a6e8799093490c220b0fcb935d02b75a/watchfiles-1.3.0-cp310-abi3-win_amd64.whl (290 kB)
+     ------------------------------------- 290.6/290.6 kB 17.5 MB/s eta 0:00:00
+Collecting httptools>=0.8.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/bb/e8/86b85bbc0ac7892232f1a99ab96a9aa71936984fa06adfc0afc83ca7789e/httptools-0.8.0-cp310-cp310-win_amd64.whl (90 kB)
+     ---------------------------------------- 90.5/90.5 kB 5.3 MB/s eta 0:00:00
+Collecting wrapt
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/87/c1/c9d72d5f648798c680d68ecaa691b55f7a54b4b9c1f0cb373502b975a01f/wrapt-2.5.0-cp310-cp310-win_amd64.whl (105 kB)
+     -------------------------------------- 105.4/105.4 kB 5.9 MB/s eta 0:00:00
+Collecting propcache>=0.2.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/80/57/0a0b4b1122f4ed5bcd1c626d910003cdf5282c2a12f8a1cfa17970b3ded2/propcache-0.5.4-cp310-cp310-win_amd64.whl (46 kB)
+     ---------------------------------------- 46.6/46.6 kB 2.4 MB/s eta 0:00:00
+Collecting grpc-google-iam-v1<1.0.0,>=0.14.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/84/ab/be3ad0d46cffe35fd1e7cc3f9947edd6cb3c552229de3be2742f15f7ea47/grpc_google_iam_v1-0.14.5-py3-none-any.whl (32 kB)
+Collecting py-cpuinfo2>=10.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/23/0a/ba69d2dde1ae12ef1d389ea5a216384c5ff6ef7a1e7a48d1e9b6686f6790/py_cpuinfo2-10.1.1-py3-none-any.whl (23 kB)
+Collecting pycparser
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl (48 kB)
+     ---------------------------------------- 48.2/48.2 kB ? eta 0:00:00
+Collecting grpcio-status<2.0.0,>=1.59.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/c4/3a77e4273e866b1b0c412afd80882e95941a37170032b5109d847c501124/grpcio_status-1.84.0-py3-none-any.whl (14 kB)
+Collecting httpcore2==2.13.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/09/ba/a4568248771ce81957bfb7cc600264a40fbcda092391ee1c415c50be4bea/httpcore2-2.13.1-py3-none-any.whl (83 kB)
+     ---------------------------------------- 83.4/83.4 kB 4.9 MB/s eta 0:00:00
+Collecting truststore>=0.10
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/19/97/56608b2249fe206a67cd573bc93cd9896e1efb9e98bce9c163bcdc704b88/truststore-0.10.4-py3-none-any.whl (18 kB)
+Collecting filelock>=3.10.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/da/a1/b047e1c486a2c66283633b7dbb73872ca16ca1ce6a426f70d4d037fc8e1c/filelock-4.0.12-py3-none-any.whl (111 kB)
+     -------------------------------------- 111.7/111.7 kB 6.3 MB/s eta 0:00:00
+Collecting fsspec>=2023.5.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl (221 kB)
+     ------------------------------------- 221.7/221.7 kB 13.2 MB/s eta 0:00:00
+Collecting hf-xet<2.0.0,>=1.6.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/98/b7/8c59a66d15205024662f1d66968136f13893f96df1ddc5087e2e281fc95f/hf_xet-1.6.0-cp38-abi3-win_amd64.whl (4.0 MB)
+     ---------------------------------------- 4.0/4.0 MB 23.4 MB/s eta 0:00:00
+Collecting mdurl~=0.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Collecting pyasn1<0.7.0,>=0.6.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9a/3b/6163796d69c3977d1e4287bea4a6979161cbbdd170ebb430511e8e1999ce/pyasn1-0.6.4-py3-none-any.whl (84 kB)
+     ---------------------------------------- 84.4/84.4 kB 4.6 MB/s eta 0:00:00
+Collecting humanfriendly>=9.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+     ---------------------------------------- 86.8/86.8 kB 5.1 MB/s eta 0:00:00
+Collecting oauthlib>=3.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d9/f4/78229a1066068ca14fc60fb26cf7381cabe4382261392b90e5f9552722d4/oauthlib-4.0.0-py3-none-any.whl (159 kB)
+     ---------------------------------------- 159.7/159.7 kB ? eta 0:00:00
+Collecting mpmath<1.4,>=1.1.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ------------------------------------- 536.2/536.2 kB 32.9 MB/s eta 0:00:00
+Collecting pyreadline3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f7/5e/35c856e186b74678c24927847ad9895a51f1bc02a0c6126477a6c6040064/pyreadline3-3.5.6-py3-none-any.whl (85 kB)
+     ---------------------------------------- 85.2/85.2 kB 2.4 MB/s eta 0:00:00
+Installing collected packages: mpmath, flatbuffers, durationpy, zstandard, xxhash, wrapt, websockets, websocket-client, uuid-utils, urllib3, typing-extensions, truststore, tomli, tenacity, sympy, sniffio, six, shellingham, rpds-py, pyyaml, python-dotenv, pyreadline3, pyproject_hooks, pygments, pycparser, pybase64, pyasn1, py-cpuinfo2, protobuf, propcache, pluggy, pinecone-plugin-interface, pgvector, packaging, overrides, orjson, oauthlib, numpy, mmh3, mdurl, jsonpointer, iniconfig, importlib-resources, idna, httptools, hf-xet, h11, greenlet, google-crc32c, fsspec, frozenlist, filelock, distro, colorama, click, charset_normalizer, certifi, bcrypt, backports-asyncio-runner, attrs, async-timeout, annotated-types, annotated-doc, aiohappyeyeballs, aiofiles, uvicorn, typing-inspection, tqdm, SQLAlchemy, requests, referencing, python-dateutil, pypika, pydantic-core, pyasn1-modules, proto-plus, pinecone-plugin-inference, opentelemetry-proto, opentelemetry-api, multidict, markdown-it-py, jsonpatch, humanfriendly, httpcore2, httpcore, grpcio, googleapis-common-protos, google-resumable-media, exceptiongroup, cffi, build, asyncpg, aiosignal, yarl, rich, requests-toolbelt, requests-oauthlib, pytest, pydantic, pinecone, opentelemetry-semantic-conventions, opentelemetry-exporter-otlp-proto-common, jsonschema-specifications, grpcio-status, cryptography, coloredlogs, anyio, watchfiles, vcrpy, typer, syrupy, pytest-socket, pytest-codspeed, pytest-benchmark, pytest-asyncio, pydantic-settings, opentelemetry-sdk, onnxruntime, jsonschema, httpx2, httpx, grpc-google-iam-v1, google-auth, aiohttp, pytest-recording, opentelemetry-exporter-otlp-common, langsmith, kubernetes, huggingface-hub, google-api-core, tokenizers, opentelemetry-exporter-otlp-proto-grpc, langchain-core, google-cloud-core, langchain-tests, google-cloud-storage, google-cloud-alloydb, chromadb, langchain-pinecone, langchain-chroma, google-cloud-alloydb-connector, langchain-google-alloydb-pg
+Successfully installed SQLAlchemy-2.0.54 aiofiles-25.1.0 aiohappyeyeballs-2.7.1 aiohttp-3.10.11 aiosignal-1.4.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 async-timeout-5.0.1 asyncpg-0.31.0 attrs-26.1.0 backports-asyncio-runner-1.2.0 bcrypt-5.0.0 build-1.6.1 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.2 chromadb-1.5.9 click-8.5.0 colorama-0.4.6 coloredlogs-15.0.1 cryptography-50.0.2 distro-1.9.0 durationpy-0.11 exceptiongroup-1.3.1 filelock-4.0.12 flatbuffers-25.12.19 frozenlist-1.8.0 fsspec-2026.9.0 google-api-core-2.41.0 google-auth-2.60.0 google-cloud-alloydb-0.11.3 google-cloud-alloydb-connector-1.14.0 google-cloud-core-2.8.0 google-cloud-storage-3.16.0 google-crc32c-1.9.0 google-resumable-media-2.11.0 googleapis-common-protos-1.75.5 greenlet-3.5.6 grpc-google-iam-v1-0.14.5 grpcio-1.84.0 grpcio-status-1.84.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpcore2-2.13.1 httptools-0.8.0 httpx-0.28.1 httpx2-2.13.1 huggingface-hub-1.33.0 humanfriendly-10.0 idna-3.20 importlib-resources-7.1.0 iniconfig-2.3.0 jsonpatch-1.33 jsonpointer-3.1.1 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kubernetes-36.0.0 langchain-chroma-0.2.5 langchain-core-0.3.86 langchain-google-alloydb-pg-0.12.0 langchain-pinecone-0.2.3 langchain-tests-0.3.22 langsmith-0.14.4 markdown-it-py-4.2.0 mdurl-0.1.2 mmh3-5.3.1 mpmath-1.3.0 multidict-6.9.1 numpy-1.26.4 oauthlib-4.0.0 onnxruntime-1.23.2 opentelemetry-api-1.45.0 opentelemetry-exporter-otlp-common-0.66b0 opentelemetry-exporter-otlp-proto-common-1.45.0 opentelemetry-exporter-otlp-proto-grpc-1.45.0 opentelemetry-proto-1.45.0 opentelemetry-sdk-1.45.0 opentelemetry-semantic-conventions-0.66b0 orjson-3.12.0 overrides-7.7.0 packaging-25.0 pgvector-0.5.0 pinecone-5.4.2 pinecone-plugin-inference-3.1.0 pinecone-plugin-interface-0.0.7 pluggy-1.6.0 propcache-0.5.4 proto-plus-1.29.0 protobuf-7.36.2 py-cpuinfo2-10.1.1 pyasn1-0.6.4 pyasn1-modules-0.4.2 pybase64-1.5.1 pycparser-3.0 pydantic-2.13.5 pydantic-core-2.46.5 pydantic-settings-2.15.0 pygments-2.21.0 pypika-0.51.1 pyproject_hooks-1.3.3 pyreadline3-3.5.6 pytest-8.4.2 pytest-asyncio-1.4.0 pytest-benchmark-5.3.0 pytest-codspeed-5.0.3 pytest-recording-0.14.0 pytest-socket-0.8.1 python-dateutil-2.9.0.post0 python-dotenv-1.2.4 pyyaml-6.0.3 referencing-0.37.0 requests-2.34.2 requests-oauthlib-2.0.0 requests-toolbelt-1.0.0 rich-15.0.0 rpds-py-0.30.0 shellingham-1.5.4 six-1.17.0 sniffio-1.3.1 sympy-1.14.0 syrupy-4.9.1 tenacity-9.1.4 tokenizers-0.23.2 tomli-2.4.1 tqdm-4.70.1 truststore-0.10.4 typer-0.27.2 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-2.8.0 uuid-utils-0.17.1 uvicorn-0.54.0 vcrpy-7.0.0 watchfiles-1.3.0 websocket-client-1.9.2 websockets-16.1.1 wrapt-2.5.0 xxhash-4.0.1 yarl-1.25.1 zstandard-0.25.0
+

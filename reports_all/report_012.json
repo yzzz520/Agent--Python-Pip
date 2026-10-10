@@ -1,0 +1,15 @@
+{
+  "case_id": "012",
+  "source_error_file": "error_case_012.txt",
+  "repo": "AUTOMATIC1111/stable-diffusion-webui",
+  "path": "requirements_versions.txt",
+  "commit_sha": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+  "priority": "P0",
+  "failure_type": "no_failure",
+  "root_cause": "pip 返回码为 0，本次解析未失败。",
+  "evidence": [],
+  "suggestions": [],
+  "confidence": 0.95,
+  "returncode": 0,
+  "generated_at": "2026-10-06T14:05:42.168754+00:00"
+}

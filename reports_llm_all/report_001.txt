@@ -1,0 +1,31 @@
+======================================================================
+【LLM 归因报告】 - 案例: 001
+======================================================================
+
+0. 来源信息：
+   - repo   : vllm-project/vllm
+   - path   : requirements/common.txt
+   - commit : 6ad2e06c4a5bdd878977dfccc7443831e4fdc889
+   - model  : deepseek-flash
+
+1. 失败类型：
+   - no_failure (confidence=0.97)
+
+2. 根因分析：
+   pip 以 dry-run 模式成功完成依赖解析，returncode 为 0，日志以 "Would install" 收尾，未发生任何安装失败。
+
+3. 证据行：
+   - returncode    : 0
+   - run_mode      : dry-run
+   - Would install Jinja2-3.1.6 MarkupSafe-3.0.4 PyJWT-2.15.1 PyYAML-6.0.3 ... torch-2.14.1 tqdm-4.70.1 transformers-5.18.0 ... yarl-1.25.1
+   - Ignoring six: markers 'python_version > "3.11"' don't match your environment
+   - Ignoring xgrammar: markers 'platform_machine == "x86_64" or ...' don't match your environment
+   - 其中可在原始日志中逐字验证: 3
+   - 未验证: 2
+
+4. 修复建议：
+   - 无需修复：本次为 dry-run 且解析成功，可直接去掉 --dry-run 执行真实安装。
+   - 若要复现解析结果，保持当前 Python 3.10 + win_amd64 环境不变。
+   - 注意 platform_machine / python_version 标记会跳过 llguidance、xgrammar、six、setuptools 等条目，这是预期行为。
+   - 可在真实安装前备份环境，便于出现运行时问题时回滚。
+======================================================================

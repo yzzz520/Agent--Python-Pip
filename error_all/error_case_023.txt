@@ -1,0 +1,36 @@
+======================================================================
+PIP RUN METADATA
+======================================================================
+timestamp_utc : 2026-10-06T14:01:16.403784+00:00
+run_mode      : dry-run
+python        : D:\miniconda3\envs\agent_test\python.exe
+pip           : pip 26.2.1 from D:\miniconda3\envs\agent_test\lib\site-packages\pip (python 3.10)
+returncode    : 1
+duration_sec  : 87.45
+command       : D:\miniconda3\envs\agent_test\python.exe -m pip install -r D:\项目：Agent 工具调用失败归因与自动恢复系统\requirements_all\requirements_023.txt --disable-pip-version-check --no-input --dry-run
+======================================================================
+STDOUT
+======================================================================
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting deepspeed @ git+https://github.com/EleutherAI/DeeperSpeed.git@91d1c55ba037b5ada99ae14884dff87a4dc5b9ea#egg=deepspeed (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_023.txt (line 1))
+  Cloning https://github.com/EleutherAI/DeeperSpeed.git (to revision 91d1c55ba037b5ada99ae14884dff87a4dc5b9ea) to C:\Users\Y\AppData\Local\Temp\pip-install-293z4xgq\deepspeed_a1f836e45ab54e9688317793340a2b8f
+
+======================================================================
+STDERR
+======================================================================
+  Running command git clone --filter=blob:none --quiet https://github.com/EleutherAI/DeeperSpeed.git 'C:\Users\Y\AppData\Local\Temp\pip-install-293z4xgq\deepspeed_a1f836e45ab54e9688317793340a2b8f'
+  Running command git rev-parse -q --verify '91d1c55ba037b5ada99ae14884dff87a4dc5b9ea^{commit}'
+  91d1c55ba037b5ada99ae14884dff87a4dc5b9ea
+  Running command git checkout -q 91d1c55ba037b5ada99ae14884dff87a4dc5b9ea
+  fatal: unable to access 'https://github.com/EleutherAI/DeeperSpeed.git/': Failed to connect to github.com:443 after 21132 ms: Could not connect to server
+  fatal: could not fetch deb44c2e71eb96f50c71dab915269108e3e43527 from promisor remote
+  error: subprocess-exited-with-error
+  
+  git checkout -q 91d1c55ba037b5ada99ae14884dff87a4dc5b9ea did not run successfully.
+  exit code: 128
+  
+  No available output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'deepspeed' when git checkout -q 91d1c55ba037b5ada99ae14884dff87a4dc5b9ea
+

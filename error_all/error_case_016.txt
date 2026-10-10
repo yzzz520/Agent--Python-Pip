@@ -1,0 +1,360 @@
+======================================================================
+PIP RUN METADATA
+======================================================================
+timestamp_utc : 2026-10-06T14:00:45.181438+00:00
+run_mode      : dry-run
+python        : D:\miniconda3\envs\agent_test\python.exe
+pip           : pip 26.2.1 from D:\miniconda3\envs\agent_test\lib\site-packages\pip (python 3.10)
+returncode    : 124
+duration_sec  : 180.94
+command       : D:\miniconda3\envs\agent_test\python.exe -m pip install -r D:\项目：Agent 工具调用失败归因与自动恢复系统\requirements_all\requirements_016.txt --disable-pip-version-check --no-input --dry-run
+======================================================================
+STDOUT
+======================================================================
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch>=2.0.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 1))
+  Downloading torch-2.14.1-cp310-cp310-win_amd64.whl (124.1 MB)
+     ---------------------------------------- 124.1/124.1 MB 8.7 MB/s  0:00:14
+Collecting opencv-python (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 2))
+  Downloading opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl (44.0 MB)
+     ---------------------------------------- 44.0/44.0 MB 15.6 MB/s  0:00:02
+Collecting diffusers==0.27.2 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Downloading diffusers-0.27.2-py3-none-any.whl (2.0 MB)
+     ---------------------------------------- 2.0/2.0 MB 5.4 MB/s  0:00:00
+Collecting huggingface_hub==0.25.2 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 4))
+  Downloading huggingface_hub-0.25.2-py3-none-any.whl (436 kB)
+Collecting accelerate (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 5))
+  Using cached accelerate-1.15.0-py3-none-any.whl (394 kB)
+Collecting peft==0.7.1 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 6))
+  Downloading peft-0.7.1-py3-none-any.whl (168 kB)
+Collecting transformers>=4.39.1 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 7))
+  Downloading transformers-5.18.0-py3-none-any.whl (12.6 MB)
+     ---------------------------------------- 12.6/12.6 MB 15.8 MB/s  0:00:00
+Collecting safetensors (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 8))
+  Using cached safetensors-0.8.0-cp310-abi3-win_amd64.whl (355 kB)
+Collecting controlnet-aux==0.0.3 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 9))
+  Downloading controlnet_aux-0.0.3-py3-none-any.whl (122 kB)
+Collecting fastapi==0.108.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 10))
+  Downloading fastapi-0.108.0-py3-none-any.whl (92 kB)
+Collecting uvicorn (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 11))
+  Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Collecting python-multipart (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 12))
+  Downloading python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Collecting python-socketio==5.7.2 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 13))
+  Downloading python_socketio-5.7.2-py3-none-any.whl (56 kB)
+Collecting typer (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 14))
+  Downloading typer-0.27.2-py3-none-any.whl (123 kB)
+Collecting pydantic>=2.5.2 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 15))
+  Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+Collecting rich (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 16))
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting loguru (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 17))
+  Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+Collecting yacs (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 18))
+  Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
+Collecting piexif==1.1.3 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 19))
+  Using cached piexif-1.1.3-py2.py3-none-any.whl (20 kB)
+Collecting omegaconf (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 20))
+  Using cached omegaconf-2.3.1-py3-none-any.whl (79 kB)
+Collecting easydict (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 21))
+  Downloading easydict-1.13-py3-none-any.whl (6.8 kB)
+Collecting gradio==4.21.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Downloading gradio-4.21.0-py3-none-any.whl (17.0 MB)
+     ---------------------------------------- 17.0/17.0 MB 18.8 MB/s  0:00:00
+Collecting typer-config==1.4.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 23))
+  Downloading typer_config-1.4.0-py3-none-any.whl (11 kB)
+Collecting Pillow==9.5.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 25))
+  Using cached Pillow-9.5.0-cp310-cp310-win_amd64.whl (2.5 MB)
+Collecting importlib-metadata (from diffusers==0.27.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Using cached importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+Collecting filelock (from diffusers==0.27.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Using cached filelock-4.0.12-py3-none-any.whl (111 kB)
+Collecting numpy (from diffusers==0.27.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Collecting regex!=2019.12.17 (from diffusers==0.27.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Using cached regex-2026.9.29-cp310-cp310-win_amd64.whl (280 kB)
+Collecting requests (from diffusers==0.27.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub==0.25.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 4))
+  Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Requirement already satisfied: packaging>=20.9 in d:\miniconda3\envs\agent_test\lib\site-packages (from huggingface_hub==0.25.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 4)) (26.3)
+Collecting pyyaml>=5.1 (from huggingface_hub==0.25.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 4))
+  Using cached pyyaml-6.0.3-cp310-cp310-win_amd64.whl (158 kB)
+Collecting tqdm>=4.42.1 (from huggingface_hub==0.25.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 4))
+  Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Collecting typing-extensions>=3.7.4.3 (from huggingface_hub==0.25.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 4))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Collecting psutil (from peft==0.7.1->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 6))
+  Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)
+Collecting einops (from controlnet-aux==0.0.3->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 9))
+  Using cached einops-0.8.2-py3-none-any.whl (65 kB)
+Collecting scikit-image (from controlnet-aux==0.0.3->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 9))
+  Using cached scikit_image-0.25.2-cp310-cp310-win_amd64.whl (12.8 MB)
+Collecting scipy (from controlnet-aux==0.0.3->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 9))
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Collecting timm (from controlnet-aux==0.0.3->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 9))
+  Downloading timm-1.0.30-py3-none-any.whl (2.7 MB)
+     ---------------------------------------- 2.7/2.7 MB 22.1 MB/s  0:00:00
+Collecting torchvision (from controlnet-aux==0.0.3->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 9))
+  Using cached torchvision-0.29.1-cp310-cp310-win_amd64.whl (1.4 MB)
+Collecting starlette<0.33.0,>=0.29.0 (from fastapi==0.108.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 10))
+  Downloading starlette-0.32.0.post1-py3-none-any.whl (70 kB)
+Collecting bidict>=0.21.0 (from python-socketio==5.7.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 13))
+  Downloading bidict-0.23.1-py3-none-any.whl (32 kB)
+Collecting python-engineio>=4.3.0 (from python-socketio==5.7.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 13))
+  Downloading python_engineio-4.14.0-py3-none-any.whl (60 kB)
+Collecting aiofiles<24.0,>=22.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting altair<6.0,>=4.2.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached altair-5.5.0-py3-none-any.whl (731 kB)
+Collecting ffmpy (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
+Collecting gradio-client==0.12.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Downloading gradio_client-0.12.0-py3-none-any.whl (310 kB)
+Collecting httpx>=0.24.1 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting importlib-resources<7.0,>=1.3 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+Collecting jinja2<4.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting markupsafe~=2.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached MarkupSafe-2.1.5-cp310-cp310-win_amd64.whl (17 kB)
+Collecting matplotlib~=3.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached matplotlib-3.10.9-cp310-cp310-win_amd64.whl (8.2 MB)
+Collecting numpy (from diffusers==0.27.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 3))
+  Using cached numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+Collecting orjson~=3.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached orjson-3.12.0-cp310-cp310-win_amd64.whl (122 kB)
+Collecting pandas<3.0,>=1.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached pandas-2.3.3-cp310-cp310-win_amd64.whl (11.3 MB)
+Collecting pydub (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Collecting ruff>=0.2.2 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Downloading ruff-0.16.10-py3-none-win_amd64.whl (10.6 MB)
+     ---------------------------------------- 10.6/10.6 MB 22.8 MB/s  0:00:00
+Collecting semantic-version~=2.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting tomlkit==0.12.0 (from gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Downloading tomlkit-0.12.0-py3-none-any.whl (37 kB)
+Collecting websockets<12.0,>=10.0 (from gradio-client==0.12.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached websockets-11.0.3-cp310-cp310-win_amd64.whl (124 kB)
+Collecting shellingham>=1.3.0 (from typer->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 14))
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting annotated-doc>=0.0.2 (from typer->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 14))
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting colorama (from typer->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 14))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.5.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 15))
+  Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.5 (from pydantic>=2.5.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 15))
+  Using cached pydantic_core-2.46.5-cp310-cp310-win_amd64.whl (2.0 MB)
+Collecting typing-inspection>=0.4.2 (from pydantic>=2.5.2->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 15))
+  Using cached typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Collecting jsonschema>=3.0 (from altair<6.0,>=4.2.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Collecting narwhals>=1.14.2 (from altair<6.0,>=4.2.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached narwhals-2.26.0-py3-none-any.whl (474 kB)
+Collecting contourpy>=1.0.1 (from matplotlib~=3.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached contourpy-1.3.2-cp310-cp310-win_amd64.whl (221 kB)
+Collecting cycler>=0.10 (from matplotlib~=3.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib~=3.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached fonttools-4.65.0-cp310-cp310-win_amd64.whl (1.6 MB)
+Collecting kiwisolver>=1.3.1 (from matplotlib~=3.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached kiwisolver-1.5.1-cp310-cp310-win_amd64.whl (70 kB)
+Collecting pyparsing>=3 (from matplotlib~=3.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Collecting python-dateutil>=2.7 (from matplotlib~=3.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz>=2020.1 (from pandas<3.0,>=1.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached pytz-2026.5-py2.py3-none-any.whl (506 kB)
+Collecting tzdata>=2022.7 (from pandas<3.0,>=1.0->gradio==4.21.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 22))
+  Using cached tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Collecting anyio<5,>=3.4.0 (from starlette<0.33.0,>=0.29.0->fastapi==0.108.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 10))
+  Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Collecting exceptiongroup>=1.0.2 (from anyio<5,>=3.4.0->starlette<0.33.0,>=0.29.0->fastapi==0.108.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 10))
+  Using cached exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting idna>=2.8 (from anyio<5,>=3.4.0->starlette<0.33.0,>=0.29.0->fastapi==0.108.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 10))
+  Using cached idna-3.20-py3-none-any.whl (69 kB)
+Requirement already satisfied: setuptools>=77.0.3 in d:\miniconda3\envs\agent_test\lib\site-packages (from torch>=2.0.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 1)) (83.0.0)
+Collecting sympy>=1.13.3 (from torch>=2.0.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 1))
+  Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Collecting networkx>=2.5.1 (from torch>=2.0.0->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 1))
+  Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+INFO: pip is looking at multiple versions of opencv-python to determine which version is compatible with other requirements. This could take a while.
+Collecting opencv-python (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 2))
+  Downloading opencv_python-4.14.0.94-cp37-abi3-win_amd64.whl (41.2 MB)
+     ---------------------------------------- 41.2/41.2 MB 15.6 MB/s  0:00:02
+  Downloading opencv_python-4.13.0.92-cp37-abi3-win_amd64.whl (40.2 MB)
+     ---------------------------------------- 40.2/40.2 MB 15.2 MB/s  0:00:02
+  Downloading opencv_python-4.13.0.90-cp37-abi3-win_amd64.whl (40.2 MB)
+     ---------------------------------------- 40.2/40.2 MB 10.7 MB/s  0:00:03
+  Downloading opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl (39.0 MB)
+     ---------------------------------------- 39.0/39.0 MB 21.0 MB/s  0:00:01
+  Downloading opencv_python-4.11.0.86-cp37-abi3-win_amd64.whl (39.5 MB)
+     ---------------------------------------- 39.5/39.5 MB 8.5 MB/s  0:00:04
+INFO: pip is looking at multiple versions of transformers to determine which version is compatible with other requirements. This could take a while.
+Collecting transformers>=4.39.1 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 7))
+  Downloading transformers-5.17.0-py3-none-any.whl (12.3 MB)
+     ---------------------------------------- 12.3/12.3 MB 9.4 MB/s  0:00:01
+  Downloading transformers-5.16.1-py3-none-any.whl (12.1 MB)
+     ---------------------------------------- 12.1/12.1 MB 4.5 MB/s  0:00:02
+  Downloading transformers-5.16.0-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 3.3 MB/s  0:00:03
+  Downloading transformers-5.15.1-py3-none-any.whl (11.7 MB)
+     ---------------------------------------- 11.7/11.7 MB 5.7 MB/s  0:00:02
+  Downloading transformers-5.15.0-py3-none-any.whl (11.7 MB)
+     ---------------------------------------- 11.7/11.7 MB 9.2 MB/s  0:00:01
+  Downloading transformers-5.14.1-py3-none-any.whl (11.6 MB)
+     ---------------------------------------- 11.6/11.6 MB 7.3 MB/s  0:00:01
+  Downloading transformers-5.14.0-py3-none-any.whl (11.6 MB)
+     ---------------------------------------- 11.6/11.6 MB 7.7 MB/s  0:00:01
+INFO: pip is still looking at multiple versions of transformers to determine which version is compatible with other requirements. This could take a while.
+  Downloading transformers-5.13.1-py3-none-any.whl (11.5 MB)
+     ---------------------------------------- 11.5/11.5 MB 8.7 MB/s  0:00:01
+  Downloading transformers-5.13.0-py3-none-any.whl (11.5 MB)
+     ---------------------------------------- 11.5/11.5 MB 12.4 MB/s  0:00:00
+  Downloading transformers-5.12.1-py3-none-any.whl (11.2 MB)
+     ---------------------------------------- 11.2/11.2 MB 8.4 MB/s  0:00:01
+  Downloading transformers-5.12.0-py3-none-any.whl (11.2 MB)
+     ---------------------------------------- 11.2/11.2 MB 8.0 MB/s  0:00:01
+  Downloading transformers-5.11.0-py3-none-any.whl (11.1 MB)
+     ---------------------------------------- 11.1/11.1 MB 6.5 MB/s  0:00:01
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading transformers-5.10.4-py3-none-any.whl (11.0 MB)
+     ---------------------------------------- 11.0/11.0 MB 5.6 MB/s  0:00:01
+  Downloading transformers-5.10.2-py3-none-any.whl (11.0 MB)
+     ---------------------------------------- 11.0/11.0 MB 8.2 MB/s  0:00:01
+  Downloading transformers-5.10.1-py3-none-any.whl (11.0 MB)
+     ---------------------------------------- 11.0/11.0 MB 9.5 MB/s  0:00:01
+  Downloading transformers-5.9.0-py3-none-any.whl (10.8 MB)
+     ---------------------------------------- 10.8/10.8 MB 11.0 MB/s  0:00:00
+  Downloading transformers-5.8.1-py3-none-any.whl (10.6 MB)
+     ---------------------------------------- 10.6/10.6 MB 13.0 MB/s  0:00:00
+  Downloading transformers-5.8.0-py3-none-any.whl (10.6 MB)
+     ---------------------------------------- 10.6/10.6 MB 13.3 MB/s  0:00:00
+  Downloading transformers-5.7.0-py3-none-any.whl (10.5 MB)
+     ---------------------------------------- 10.5/10.5 MB 12.3 MB/s  0:00:00
+  Downloading transformers-5.6.2-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 14.7 MB/s  0:00:00
+  Downloading transformers-5.6.1-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 17.9 MB/s  0:00:00
+  Downloading transformers-5.6.0-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 13.2 MB/s  0:00:00
+  Downloading transformers-5.5.4-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 13.0 MB/s  0:00:00
+  Downloading transformers-5.5.3-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 13.9 MB/s  0:00:00
+  Downloading transformers-5.5.2-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 14.8 MB/s  0:00:00
+  Downloading transformers-5.5.1-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 14.2 MB/s  0:00:00
+  Downloading transformers-5.5.0-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 16.8 MB/s  0:00:00
+  Downloading transformers-5.4.0-py3-none-any.whl (10.1 MB)
+     ---------------------------------------- 10.1/10.1 MB 14.0 MB/s  0:00:00
+  Downloading transformers-5.3.0-py3-none-any.whl (10.7 MB)
+     ---------------------------------------- 10.7/10.7 MB 21.5 MB/s  0:00:00
+  Downloading transformers-5.2.0-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 21.0 MB/s  0:00:00
+  Downloading transformers-5.1.0-py3-none-any.whl (10.3 MB)
+     ---------------------------------------- 10.3/10.3 MB 19.4 MB/s  0:00:00
+  Downloading transformers-5.0.0-py3-none-any.whl (10.1 MB)
+     ---------------------------------------- 10.1/10.1 MB 17.1 MB/s  0:00:00
+  Downloading transformers-4.57.6-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 13.6 MB/s  0:00:00
+  Downloading transformers-4.57.5-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 14.7 MB/s  0:00:00
+  Downloading transformers-4.57.4-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 15.0 MB/s  0:00:00
+  Downloading transformers-4.57.3-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 16.0 MB/s  0:00:00
+  Downloading transformers-4.57.2-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 21.4 MB/s  0:00:00
+  Downloading transformers-4.57.1-py3-none-any.whl (12.0 MB)
+     ---------------------------------------- 12.0/12.0 MB 19.2 MB/s  0:00:00
+  Downloading transformers-4.56.2-py3-none-any.whl (11.6 MB)
+     ---------------------------------------- 11.6/11.6 MB 11.9 MB/s  0:00:00
+  Downloading transformers-4.56.1-py3-none-any.whl (11.6 MB)
+     ---------------------------------------- 11.6/11.6 MB 20.2 MB/s  0:00:00
+  Downloading transformers-4.56.0-py3-none-any.whl (11.6 MB)
+     ---------------------------------------- 11.6/11.6 MB 19.6 MB/s  0:00:00
+  Downloading transformers-4.55.4-py3-none-any.whl (11.3 MB)
+     ---------------------------------------- 11.3/11.3 MB 22.0 MB/s  0:00:00
+  Downloading transformers-4.55.3-py3-none-any.whl (11.3 MB)
+     ---------------------------------------- 11.3/11.3 MB 20.1 MB/s  0:00:00
+  Downloading transformers-4.55.2-py3-none-any.whl (11.3 MB)
+     ---------------------------------------- 11.3/11.3 MB 22.7 MB/s  0:00:00
+  Downloading transformers-4.55.1-py3-none-any.whl (11.3 MB)
+     ---------------------------------------- 11.3/11.3 MB 21.4 MB/s  0:00:00
+  Downloading transformers-4.55.0-py3-none-any.whl (11.3 MB)
+     ---------------------------------------- 11.3/11.3 MB 20.7 MB/s  0:00:00
+  Downloading transformers-4.54.1-py3-none-any.whl (11.2 MB)
+     ---------------------------------------- 11.2/11.2 MB 19.4 MB/s  0:00:00
+  Downloading transformers-4.54.0-py3-none-any.whl (11.2 MB)
+     ---------------------------------------- 11.2/11.2 MB 18.9 MB/s  0:00:00
+  Downloading transformers-4.53.3-py3-none-any.whl (10.8 MB)
+     ---------------------------------------- 10.8/10.8 MB 16.1 MB/s  0:00:00
+  Downloading transformers-4.53.2-py3-none-any.whl (10.8 MB)
+     ---------------------------------------- 10.8/10.8 MB 15.7 MB/s  0:00:00
+  Downloading transformers-4.53.1-py3-none-any.whl (10.8 MB)
+     ---------------------------------------- 10.8/10.8 MB 14.1 MB/s  0:00:00
+  Downloading transformers-4.53.0-py3-none-any.whl (10.8 MB)
+     ---------------------------------------- 10.8/10.8 MB 10.9 MB/s  0:00:00
+  Downloading transformers-4.52.4-py3-none-any.whl (10.5 MB)
+     ---------------------------------------- 10.5/10.5 MB 11.1 MB/s  0:00:00
+  Downloading transformers-4.52.3-py3-none-any.whl (10.5 MB)
+     ---------------------------------------- 10.5/10.5 MB 7.8 MB/s  0:00:01
+  Downloading transformers-4.52.2-py3-none-any.whl (10.5 MB)
+     ---------------------------------------- 10.5/10.5 MB 8.7 MB/s  0:00:01
+  Downloading transformers-4.52.1-py3-none-any.whl (10.5 MB)
+     ---------------------------------------- 10.5/10.5 MB 15.2 MB/s  0:00:00
+  Downloading transformers-4.51.3-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 14.1 MB/s  0:00:00
+  Downloading transformers-4.51.2-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 15.4 MB/s  0:00:00
+  Downloading transformers-4.51.1-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 14.1 MB/s  0:00:00
+  Downloading transformers-4.51.0-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 16.2 MB/s  0:00:00
+  Downloading transformers-4.50.3-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 14.8 MB/s  0:00:00
+  Downloading transformers-4.50.2-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 13.2 MB/s  0:00:00
+  Downloading transformers-4.50.1-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 14.4 MB/s  0:00:00
+  Downloading transformers-4.50.0-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 16.3 MB/s  0:00:00
+  Downloading transformers-4.49.0-py3-none-any.whl (10.0 MB)
+     ---------------------------------------- 10.0/10.0 MB 14.8 MB/s  0:00:00
+  Downloading transformers-4.48.3-py3-none-any.whl (9.7 MB)
+     ---------------------------------------- 9.7/9.7 MB 16.3 MB/s  0:00:00
+Collecting tokenizers<0.22,>=0.21 (from transformers>=4.39.1->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 7))
+  Downloading tokenizers-0.21.4-cp39-abi3-win_amd64.whl (2.5 MB)
+     ---------------------------------------- 2.5/2.5 MB 20.6 MB/s  0:00:00
+Collecting click>=7.0 (from uvicorn->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 11))
+  Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Collecting h11>=0.8 (from uvicorn->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 11))
+  Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 16))
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 16))
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ---------------------------------------- 1.3/1.3 MB 15.7 MB/s  0:00:00
+Collecting win32-setctime>=1.0.0 (from loguru->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 17))
+  Downloading win32_setctime-1.2.0-py3-none-any.whl (4.1 kB)
+Collecting antlr4-python3-runtime==4.9.* (from omegaconf->-r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_016.txt (line 20))
+  Using cached antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+
+======================================================================
+STDERR
+======================================================================
+WARNING: typer 0.27.2 does not provide the extra 'all'
+
+[runner] timeout after 180s
+

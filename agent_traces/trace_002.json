@@ -1,0 +1,7 @@
+{
+  "case_id": "002",
+  "model": "deepseek-v4-flash",
+  "tool_calls": 0,
+  "total_tokens": 3872,
+  "trace": []
+}

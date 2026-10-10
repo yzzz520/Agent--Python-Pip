@@ -1,0 +1,21 @@
+{
+  "case_id": "025",
+  "source_error_file": "error_case_025.txt",
+  "repo": "meta-llama/llama-recipes",
+  "path": "requirements.txt",
+  "commit_sha": "2f22a9eb030f92d0e99227e57e9a1123af1f9532",
+  "priority": "P1",
+  "failure_type": "python_version_mismatch",
+  "root_cause": "部分依赖的 Requires-Python 与当前解释器版本不匹配。",
+  "evidence": [
+    "ERROR: Could not find a version that satisfies the requirement faiss-gpu (from versions: none)",
+    "ERROR: No matching distribution found for faiss-gpu"
+  ],
+  "suggestions": [
+    "切换到满足 Requires-Python 的解释器版本。",
+    "或选择支持当前 Python 版本的另一组依赖版本。"
+  ],
+  "confidence": 0.9,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.751964+00:00"
+}

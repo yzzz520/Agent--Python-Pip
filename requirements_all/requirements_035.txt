@@ -1,0 +1,7 @@
+# Minimum runtime dependencies
+torch
+
+# Optional runtime dependencies
+torchcodec
+
+# For build and test-time dependencies please refer to CONTRIBUTING.md

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-10T20:29:39.701437+00:00",
+  "labels_source": "golden_labels.json",
+  "needs_human_review": true,
+  "rows": [],
+  "summary": {
+    "rule": {
+      "evaluated": 0,
+      "correct": 0,
+      "accuracy": null,
+      "strict_correct": 0,
+      "strict_accuracy": null,
+      "average_confidence": null,
+      "total_tokens": 0,
+      "fix_verified": 0,
+      "total_tool_calls": 0
+    },
+    "llm": {
+      "evaluated": 0,
+      "correct": 0,
+      "accuracy": null,
+      "strict_correct": 0,
+      "strict_accuracy": null,
+      "average_confidence": null,
+      "total_tokens": 0,
+      "fix_verified": 0,
+      "total_tool_calls": 0
+    },
+    "agent": {
+      "evaluated": 0,
+      "correct": 0,
+      "accuracy": null,
+      "strict_correct": 0,
+      "strict_accuracy": null,
+      "average_confidence": null,
+      "total_tokens": 0,
+      "fix_verified": 0,
+      "total_tool_calls": 0
+    }
+  }
+}

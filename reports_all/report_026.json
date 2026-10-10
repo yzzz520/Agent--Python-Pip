@@ -1,0 +1,15 @@
+{
+  "case_id": "026",
+  "source_error_file": "error_case_026.txt",
+  "repo": "QwenLM/Qwen",
+  "path": "requirements.txt",
+  "commit_sha": "2df8e8ac450fa185c421a08b0090ef81826caa6e",
+  "priority": "P1",
+  "failure_type": "no_failure",
+  "root_cause": "pip 返回码为 0，本次解析未失败。",
+  "evidence": [],
+  "suggestions": [],
+  "confidence": 0.95,
+  "returncode": 0,
+  "generated_at": "2026-10-06T13:52:56.755963+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-10T20:10:17.946527+00:00",
+  "model": "deepseek-v4-flash",
+  "mock": false,
+  "case_count": 1,
+  "failure_type_counts": {
+    "invalid_local_reference": 1
+  },
+  "average_confidence": 0.9,
+  "total_tool_calls": 3,
+  "total_tokens": 28679,
+  "fix_verified_count": 1,
+  "cases": [
+    {
+      "case_id": "009",
+      "source_error_file": "error_case_009.txt",
+      "model": "deepseek-v4-flash",
+      "failure_type": "invalid_local_reference",
+      "root_cause": "requirements 中 `-e ./superset-core` 指向本地目录，但该目录在安装工作路径下不存在，pip 无法将其识别为合法的可编辑（本地路径/VCS）需求。",
+      "evidence": [
+        "ERROR: ./superset-core is not a valid editable requirement. It should either be a path to a local project or a VCS URL ...",
+        "requirements 第 3 行为 `-e ./superset-core`（via apache-superset pyproject.toml）",
+        "pip 以 --dry-run 运行仍直接报错，说明在需求解析前即因路径不存在而失败",
+        "错误信息未涉及任何版本/依赖冲突或 Python 版本限制，仅针对该本地路径引用"
+      ],
+      "suggestions": [
+        "确认工作目录中是否存在 superset-core 子项目；若存在，使用正确的相对/绝对路径或 VCS URL 重新指向",
+        "若无需本地源码安装，删除 `-e ./superset-core` 行，改为依赖已在 PyPI 上发布的 apache-superset-core / apache-superset 包",
+        "安装时先切换到仓库根目录（requirements/base.txt 的父目录的上一级）再执行 pip，保证相对路径可解析",
+        "在 CI 中把生成 requirements 的 uv 工作目录与安装目录保持一致，避免本地路径引用失效"
+      ],
+      "confidence": 0.9,
+      "fix_verified": true,
+      "verification_note": "删除 `-e ./superset-core` 后重新执行 run_install（dry-run），原先的 “not a valid editable requirement” 报错消失，pip 进入正常的依赖下载与解析流程；因环境中多个包需从源码构建（apsw、markupsafe、msgspec 等）导致 60s/180s 超时，属耗时问题而非依赖错误，故判定修复有效。",
+      "tool_calls": 3,
+      "total_tokens": 28679,
+      "trace_file": "agent_traces/trace_009.json",
+      "generated_at": "2026-10-10T20:10:16.944187+00:00"
+    }
+  ],
+  "failures": []
+}

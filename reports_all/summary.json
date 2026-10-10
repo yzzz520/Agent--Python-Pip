@@ -1,0 +1,415 @@
+{
+  "generated_at": "2026-10-06T14:05:42.439149+00:00",
+  "scope": "all_reports",
+  "cases_filter": [
+    "10",
+    "11",
+    "12",
+    "16",
+    "21",
+    "23",
+    "30",
+    "33",
+    "38"
+  ],
+  "analyzed_this_run": [
+    "010",
+    "011",
+    "012",
+    "016",
+    "021",
+    "023",
+    "030",
+    "033",
+    "038"
+  ],
+  "case_count": 41,
+  "failure_type_counts": {
+    "no_failure": 28,
+    "build_failure": 4,
+    "python_version_mismatch": 4,
+    "timeout": 3,
+    "dependency_conflict": 1,
+    "unknown": 1
+  },
+  "average_confidence": 0.9141,
+  "average_confidence_by_type": {
+    "dependency_conflict": 0.88,
+    "no_failure": 0.95,
+    "python_version_mismatch": 0.9,
+    "unknown": 0.3,
+    "timeout": 0.9,
+    "build_failure": 0.85
+  },
+  "cases": [
+    {
+      "case_id": "000",
+      "failure_type": "dependency_conflict",
+      "confidence": 0.88,
+      "returncode": 1,
+      "repo": null,
+      "priority": null,
+      "report": "report_000.json"
+    },
+    {
+      "case_id": "001",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "vllm-project/vllm",
+      "priority": "P0",
+      "report": "report_001.json"
+    },
+    {
+      "case_id": "002",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "microsoft/DeepSpeed",
+      "priority": "P0",
+      "report": "report_002.json"
+    },
+    {
+      "case_id": "003",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "chroma-core/chroma",
+      "priority": "P0",
+      "report": "report_003.json"
+    },
+    {
+      "case_id": "004",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "hpcaitech/ColossalAI",
+      "priority": "P0",
+      "report": "report_004.json"
+    },
+    {
+      "case_id": "005",
+      "failure_type": "python_version_mismatch",
+      "confidence": 0.9,
+      "returncode": 1,
+      "repo": "NVIDIA/TensorRT-LLM",
+      "priority": "P0",
+      "report": "report_005.json"
+    },
+    {
+      "case_id": "006",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "microsoft/playwright-python",
+      "priority": "P2",
+      "report": "report_006.json"
+    },
+    {
+      "case_id": "007",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "encode/httpx",
+      "priority": "P2",
+      "report": "report_007.json"
+    },
+    {
+      "case_id": "008",
+      "failure_type": "python_version_mismatch",
+      "confidence": 0.9,
+      "returncode": 1,
+      "repo": "tornadoweb/tornado",
+      "priority": "P2",
+      "report": "report_008.json"
+    },
+    {
+      "case_id": "009",
+      "failure_type": "unknown",
+      "confidence": 0.3,
+      "returncode": 1,
+      "repo": "apache/superset",
+      "priority": "P0",
+      "report": "report_009.json"
+    },
+    {
+      "case_id": "010",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "pytorch/pytorch",
+      "priority": "P0",
+      "report": "report_010.json"
+    },
+    {
+      "case_id": "011",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "priority": "P0",
+      "report": "report_011.json"
+    },
+    {
+      "case_id": "012",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "priority": "P0",
+      "report": "report_012.json"
+    },
+    {
+      "case_id": "013",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "comfyanonymous/ComfyUI",
+      "priority": "P0",
+      "report": "report_013.json"
+    },
+    {
+      "case_id": "014",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "kohya-ss/sd-scripts",
+      "priority": "P1",
+      "report": "report_014.json"
+    },
+    {
+      "case_id": "015",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "ltdrdata/ComfyUI-Manager",
+      "priority": "P2",
+      "report": "report_015.json"
+    },
+    {
+      "case_id": "016",
+      "failure_type": "timeout",
+      "confidence": 0.9,
+      "returncode": 124,
+      "repo": "Sanster/IOPaint",
+      "priority": "P1",
+      "report": "report_016.json"
+    },
+    {
+      "case_id": "017",
+      "failure_type": "build_failure",
+      "confidence": 0.85,
+      "returncode": 1,
+      "repo": "hpcaitech/Open-Sora",
+      "priority": "P1",
+      "report": "report_017.json"
+    },
+    {
+      "case_id": "018",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "zilliztech/GPTCache",
+      "priority": "P1",
+      "report": "report_018.json"
+    },
+    {
+      "case_id": "019",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "jina-ai/jina",
+      "priority": "P1",
+      "report": "report_019.json"
+    },
+    {
+      "case_id": "020",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "jina-ai/serve",
+      "priority": "P0",
+      "report": "report_020.json"
+    },
+    {
+      "case_id": "021",
+      "failure_type": "timeout",
+      "confidence": 0.9,
+      "returncode": 124,
+      "repo": "vllm-project/vllm",
+      "priority": "P0",
+      "report": "report_021.json"
+    },
+    {
+      "case_id": "022",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "NVIDIA/apex",
+      "priority": "P1",
+      "report": "report_022.json"
+    },
+    {
+      "case_id": "023",
+      "failure_type": "build_failure",
+      "confidence": 0.85,
+      "returncode": 1,
+      "repo": "EleutherAI/gpt-neox",
+      "priority": "P0",
+      "report": "report_023.json"
+    },
+    {
+      "case_id": "024",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "facebookresearch/llama",
+      "priority": "P1",
+      "report": "report_024.json"
+    },
+    {
+      "case_id": "025",
+      "failure_type": "python_version_mismatch",
+      "confidence": 0.9,
+      "returncode": 1,
+      "repo": "meta-llama/llama-recipes",
+      "priority": "P1",
+      "report": "report_025.json"
+    },
+    {
+      "case_id": "026",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "QwenLM/Qwen",
+      "priority": "P1",
+      "report": "report_026.json"
+    },
+    {
+      "case_id": "027",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "THUDM/ChatGLM-6B",
+      "priority": "P1",
+      "report": "report_027.json"
+    },
+    {
+      "case_id": "028",
+      "failure_type": "build_failure",
+      "confidence": 0.85,
+      "returncode": 1,
+      "repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "priority": "P1",
+      "report": "report_028.json"
+    },
+    {
+      "case_id": "029",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "InternLM/InternLM",
+      "priority": "P1",
+      "report": "report_029.json"
+    },
+    {
+      "case_id": "030",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "OpenBMB/MiniCPM-V",
+      "priority": "P1",
+      "report": "report_030.json"
+    },
+    {
+      "case_id": "031",
+      "failure_type": "python_version_mismatch",
+      "confidence": 0.9,
+      "returncode": 1,
+      "repo": "OpenBMB/ChatDev",
+      "priority": "P2",
+      "report": "report_031.json"
+    },
+    {
+      "case_id": "032",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "openai/whisper",
+      "priority": "P1",
+      "report": "report_032.json"
+    },
+    {
+      "case_id": "033",
+      "failure_type": "timeout",
+      "confidence": 0.9,
+      "returncode": 124,
+      "repo": "coqui-ai/TTS",
+      "priority": "P2",
+      "report": "report_033.json"
+    },
+    {
+      "case_id": "034",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "speechbrain/speechbrain",
+      "priority": "P2",
+      "report": "report_034.json"
+    },
+    {
+      "case_id": "035",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "pytorch/audio",
+      "priority": "P1",
+      "report": "report_035.json"
+    },
+    {
+      "case_id": "036",
+      "failure_type": "build_failure",
+      "confidence": 0.85,
+      "returncode": 1,
+      "repo": "pytorch/text",
+      "priority": "P1",
+      "report": "report_036.json"
+    },
+    {
+      "case_id": "037",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "ggml-org/llama.cpp",
+      "priority": "P2",
+      "report": "report_037.json"
+    },
+    {
+      "case_id": "038",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "keras-team/keras",
+      "priority": "P1",
+      "report": "report_038.json"
+    },
+    {
+      "case_id": "039",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "Lightning-AI/torchmetrics",
+      "priority": "P1",
+      "report": "report_039.json"
+    },
+    {
+      "case_id": "040",
+      "failure_type": "no_failure",
+      "confidence": 0.95,
+      "returncode": 0,
+      "repo": "ray-project/ray",
+      "priority": "P0",
+      "report": "report_040.json"
+    }
+  ]
+}

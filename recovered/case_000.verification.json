@@ -1,0 +1,32 @@
+{
+  "case_id": "000",
+  "original_requirements": "requirements_all/requirements_000.txt",
+  "candidate_requirements": "agent_workspace/requirements_000_candidate.txt",
+  "fixed_requirements": "recovered/requirements_000.fixed.txt",
+  "patch_file": "recovered/case_000.patch",
+  "install_log": "recovered/case_000.install.log",
+  "venv": ".runner_venvs/verify_case_000",
+  "install_returncode": 0,
+  "install_timed_out": false,
+  "install_duration_sec": 389.16,
+  "pip_check_returncode": 0,
+  "pip_check_output": "No broken requirements found.\n",
+  "imports": [
+    {
+      "names": [
+        "numpy",
+        "langchain_chroma",
+        "langchain_pinecone"
+      ],
+      "returncode": 0,
+      "duration_sec": 5.13,
+      "output": "import-ok\n"
+    }
+  ],
+  "install_verified": true,
+  "pip_check_verified": true,
+  "imports_verified": true,
+  "recovery_basis": "real install + pip check; import smoke test is informational",
+  "recovered": true,
+  "generated_at": "2026-10-06T14:59:40.854984+00:00"
+}

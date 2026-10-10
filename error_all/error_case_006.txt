@@ -1,0 +1,25 @@
+======================================================================
+PIP RUN METADATA
+======================================================================
+timestamp_utc : 2026-10-06T13:44:10.408977+00:00
+run_mode      : dry-run
+python        : D:\miniconda3\envs\agent_test\python.exe
+pip           : pip 26.2.1 from D:\miniconda3\envs\agent_test\lib\site-packages\pip (python 3.10)
+returncode    : 0
+duration_sec  : 6.02
+command       : D:\miniconda3\envs\agent_test\python.exe -m pip install -r D:\项目：Agent 工具调用失败归因与自动恢复系统\requirements_all\requirements_006.txt --disable-pip-version-check --no-input --dry-run
+======================================================================
+STDOUT
+======================================================================
+Collecting greenlet==3.5.6 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_006.txt (line 3))
+  Using cached greenlet-3.5.6-cp310-cp310-win_amd64.whl.metadata (3.9 kB)
+Collecting pyee==13.0.1 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_006.txt (line 5))
+  Using cached pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting typing-extensions==4.16.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_006.txt (line 7))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Would install greenlet-3.5.6 pyee-13.0.1 typing_extensions-4.16.0
+
+======================================================================
+STDERR
+======================================================================
+

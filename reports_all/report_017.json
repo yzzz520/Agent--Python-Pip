@@ -1,0 +1,20 @@
+{
+  "case_id": "017",
+  "source_error_file": "error_case_017.txt",
+  "repo": "hpcaitech/Open-Sora",
+  "path": "requirements.txt",
+  "commit_sha": "7ad6a96a135feb81f755c84fb391818718f6beb2",
+  "priority": "P1",
+  "failure_type": "build_failure",
+  "root_cause": "依赖需要本地编译，但构建过程失败。",
+  "evidence": [
+    "ERROR: Failed to build 'colossalai' when getting requirements to build wheel"
+  ],
+  "suggestions": [
+    "安装对应的编译工具链（如 MSVC Build Tools）。",
+    "优先选择提供预编译 wheel 的版本或平台。"
+  ],
+  "confidence": 0.85,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.728904+00:00"
+}

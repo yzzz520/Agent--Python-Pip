@@ -1,0 +1,23 @@
+{
+  "case_id": "011",
+  "requirements_file": "requirements_all/requirements_011.txt",
+  "error_file": "error_all/error_case_011.txt",
+  "run_mode": "dry-run",
+  "python": "D:\\miniconda3\\envs\\agent_test\\python.exe",
+  "pip": "pip 26.2.1 from D:\\miniconda3\\envs\\agent_test\\lib\\site-packages\\pip (python 3.10)",
+  "returncode": 0,
+  "timed_out": false,
+  "duration_sec": 139.27,
+  "command": [
+    "D:\\miniconda3\\envs\\agent_test\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "-r",
+    "D:\\项目：Agent 工具调用失败归因与自动恢复系统\\requirements_all\\requirements_011.txt",
+    "--disable-pip-version-check",
+    "--no-input",
+    "--dry-run"
+  ],
+  "timestamp_utc": "2026-10-06T13:59:40.620109+00:00"
+}

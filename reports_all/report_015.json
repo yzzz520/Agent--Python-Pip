@@ -1,0 +1,15 @@
+{
+  "case_id": "015",
+  "source_error_file": "error_case_015.txt",
+  "repo": "ltdrdata/ComfyUI-Manager",
+  "path": "requirements.txt",
+  "commit_sha": "855a0f50ecc842adacab08aa24d8655a742fae40",
+  "priority": "P2",
+  "failure_type": "no_failure",
+  "root_cause": "pip 返回码为 0，本次解析未失败。",
+  "evidence": [],
+  "suggestions": [],
+  "confidence": 0.95,
+  "returncode": 0,
+  "generated_at": "2026-10-06T13:52:56.718903+00:00"
+}

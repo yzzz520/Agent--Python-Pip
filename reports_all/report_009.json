@@ -1,0 +1,19 @@
+{
+  "case_id": "009",
+  "source_error_file": "error_case_009.txt",
+  "repo": "apache/superset",
+  "path": "requirements/base.txt",
+  "commit_sha": "ce39d221aacc6d6d1d9817d7fb9b42ac3fe5daae",
+  "priority": "P0",
+  "failure_type": "unknown",
+  "root_cause": "规则基线未匹配到已知失败模式，需要人工查看原始日志。",
+  "evidence": [
+    "ERROR: ./superset-core is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file)."
+  ],
+  "suggestions": [
+    "查看 error_all 中对应日志的 STDERR 段。"
+  ],
+  "confidence": 0.3,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.683909+00:00"
+}

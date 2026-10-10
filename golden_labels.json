@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-10-06T14:20:00+00:00",
+  "source": "human-reviewed",
+  "needs_human_review": true,
+  "notes": "标签依据 error_all 原始日志与 pip 语义整理，用于规则 / LLM / Agent 三方对比。正式引用准确率前建议人工复核一遍。",
+  "labels": {
+    "000": {
+      "failure_type": "dependency_conflict",
+      "root_cause_hint": "用户固定 numpy==2.1.0，与 langchain-pinecone 0.2.3 要求的 numpy<2.0.0 冲突。",
+      "reviewed": true
+    },
+    "001": {
+      "failure_type": "no_failure",
+      "root_cause_hint": "pip 解析成功。",
+      "reviewed": true
+    },
+    "002": {
+      "failure_type": "no_failure",
+      "root_cause_hint": "pip 解析成功。",
+      "reviewed": true
+    },
+    "003": {
+      "failure_type": "no_failure",
+      "root_cause_hint": "pip 解析成功。",
+      "reviewed": true
+    },
+    "004": {
+      "failure_type": "no_failure",
+      "root_cause_hint": "pip 解析成功。",
+      "reviewed": true
+    },
+    "005": {
+      "failure_type": "no_matching_distribution",
+      "acceptable": [
+        "no_matching_distribution",
+        "python_version_mismatch"
+      ],
+      "ambiguous": true,
+      "root_cause_hint": "nvidia-nccl-cu13==2.30.7 在当前 Windows + Python 3.10 环境没有可用分发；日志同时包含 Requires-Python 不匹配信号。",
+      "reviewed": true
+    },
+    "006": {
+      "failure_type": "no_failure",
+      "root_cause_hint": "pip 解析成功。",
+      "reviewed": true
+    },
+    "007": {
+      "failure_type": "no_failure",
+      "root_cause_hint": "移除本地 -e . 引用后其余开发依赖可解析。",
+      "reviewed": true
+    },
+    "008": {
+      "failure_type": "python_version_mismatch",
+      "root_cause_hint": "sphinx==9.0.4 要求更高的 Python 版本，Python 3.10 下没有可用分发。",
+      "reviewed": true
+    },
+    "009": {
+      "failure_type": "invalid_local_reference",
+      "root_cause_hint": "requirements 中包含 -e ./superset-core 本地可编辑引用，该目录未随案例下载，pip 判定它不是有效的本地项目或 VCS 地址。",
+      "reviewed": true,
+      "reviewed_by": "me",
+      "reviewed_at": "2026-10-11"
+    }
+  },
+  "reviewed_count": 10,
+  "total_labels": 10
+}

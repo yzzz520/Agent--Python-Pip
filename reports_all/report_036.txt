@@ -1,0 +1,24 @@
+======================================================================
+【失败归因分析报告】 - 案例: 036 - 源文件: error_case_036.txt
+======================================================================
+
+0. 来源信息：
+   - repo        : pytorch/text
+   - path        : requirements.txt
+   - commit      : a5e610638ea47b4412a29cdb708ac5f2fabb1286
+   - priority    : P1
+
+1. 失败类型：
+   - build_failure (confidence=0.85)
+   - pip returncode: 1
+
+2. 根因分析：
+   依赖需要本地编译，但构建过程失败。
+
+3. 证据行：
+   - ERROR: Failed to build 'git+https://github.com/jekbradbury/revtok.git' when git clone --filter=blob:none --quiet https://github.com/jekbradbury/revtok.git 'c:\users\y\appdata\local\temp\pip-req-build-jl_q10c4'
+
+4. 修复建议：
+   - 安装对应的编译工具链（如 MSVC Build Tools）。
+   - 优先选择提供预编译 wheel 的版本或平台。
+======================================================================

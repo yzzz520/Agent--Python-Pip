@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-10-10T20:04:47.096898+00:00",
+  "model": "deepseek-v4-flash",
+  "prompt_version": "attribution_v2",
+  "mock": false,
+  "case_count": 1,
+  "failure_type_counts": {
+    "invalid_local_reference": 1
+  },
+  "average_confidence": 0.9,
+  "total_tokens": 5558,
+  "average_latency_ms": 3092,
+  "cases": [
+    {
+      "case_id": "009",
+      "failure_type": "invalid_local_reference",
+      "confidence": 0.9,
+      "total_tokens": 5558,
+      "latency_ms": 3092,
+      "cached": false
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,31 @@
+======================================================================
+PIP RUN METADATA
+======================================================================
+timestamp_utc : 2026-10-06T13:49:50.383906+00:00
+run_mode      : dry-run
+python        : D:\miniconda3\envs\agent_test\python.exe
+pip           : pip 26.2.1 from D:\miniconda3\envs\agent_test\lib\site-packages\pip (python 3.10)
+returncode    : 1
+duration_sec  : 26.10
+command       : D:\miniconda3\envs\agent_test\python.exe -m pip install -r D:\项目：Agent 工具调用失败归因与自动恢复系统\requirements_all\requirements_036.txt --disable-pip-version-check --no-input --dry-run
+======================================================================
+STDOUT
+======================================================================
+Collecting git+https://github.com/jekbradbury/revtok.git (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_036.txt (line 11))
+  Cloning https://github.com/jekbradbury/revtok.git to C:\Users\Y\AppData\Local\Temp\pip-req-build-jl_q10c4
+
+======================================================================
+STDERR
+======================================================================
+  Running command git clone --filter=blob:none --quiet https://github.com/jekbradbury/revtok.git 'C:\Users\Y\AppData\Local\Temp\pip-req-build-jl_q10c4'
+  fatal: unable to access 'https://github.com/jekbradbury/revtok.git/': Failed to connect to github.com:443 after 21105 ms: Could not connect to server
+  error: subprocess-exited-with-error
+  
+  git clone --filter=blob:none --quiet https://github.com/jekbradbury/revtok.git 'C:\Users\Y\AppData\Local\Temp\pip-req-build-jl_q10c4' did not run successfully.
+  exit code: 128
+  
+  No available output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'git+https://github.com/jekbradbury/revtok.git' when git clone --filter=blob:none --quiet https://github.com/jekbradbury/revtok.git 'c:\users\y\appdata\local\temp\pip-req-build-jl_q10c4'
+

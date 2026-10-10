@@ -1,0 +1,20 @@
+{
+  "case_id": "008",
+  "source_error_file": "error_case_008.txt",
+  "repo": "tornadoweb/tornado",
+  "path": "requirements.txt",
+  "commit_sha": "80ec6222be073c7de359332c860371bbae6971dc",
+  "priority": "P2",
+  "failure_type": "python_version_mismatch",
+  "root_cause": "部分依赖的 Requires-Python 与当前解释器版本不匹配。",
+  "evidence": [
+    "ERROR: No matching distribution found for sphinx==9.0.4"
+  ],
+  "suggestions": [
+    "切换到满足 Requires-Python 的解释器版本。",
+    "或选择支持当前 Python 版本的另一组依赖版本。"
+  ],
+  "confidence": 0.9,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.681909+00:00"
+}

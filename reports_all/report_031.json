@@ -1,0 +1,20 @@
+{
+  "case_id": "031",
+  "source_error_file": "error_case_031.txt",
+  "repo": "OpenBMB/ChatDev",
+  "path": "requirements.txt",
+  "commit_sha": "4fb2db0ea90375ce1059f44fe03ffbd191a7a169",
+  "priority": "P2",
+  "failure_type": "python_version_mismatch",
+  "root_cause": "部分依赖的 Requires-Python 与当前解释器版本不匹配。",
+  "evidence": [
+    "ERROR: No matching distribution found for numpy>=2.3.5"
+  ],
+  "suggestions": [
+    "切换到满足 Requires-Python 的解释器版本。",
+    "或选择支持当前 Python 版本的另一组依赖版本。"
+  ],
+  "confidence": 0.9,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.783467+00:00"
+}

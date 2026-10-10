@@ -1,0 +1,24 @@
+======================================================================
+【失败归因分析报告】 - 案例: 017 - 源文件: error_case_017.txt
+======================================================================
+
+0. 来源信息：
+   - repo        : hpcaitech/Open-Sora
+   - path        : requirements.txt
+   - commit      : 7ad6a96a135feb81f755c84fb391818718f6beb2
+   - priority    : P1
+
+1. 失败类型：
+   - build_failure (confidence=0.85)
+   - pip returncode: 1
+
+2. 根因分析：
+   依赖需要本地编译，但构建过程失败。
+
+3. 证据行：
+   - ERROR: Failed to build 'colossalai' when getting requirements to build wheel
+
+4. 修复建议：
+   - 安装对应的编译工具链（如 MSVC Build Tools）。
+   - 优先选择提供预编译 wheel 的版本或平台。
+======================================================================

@@ -1,0 +1,15 @@
+{
+  "case_id": "022",
+  "source_error_file": "error_case_022.txt",
+  "repo": "NVIDIA/apex",
+  "path": "requirements.txt",
+  "commit_sha": "575968bc1f9127ccd61003a681472a83af4ff1a1",
+  "priority": "P1",
+  "failure_type": "no_failure",
+  "root_cause": "pip 返回码为 0，本次解析未失败。",
+  "evidence": [],
+  "suggestions": [],
+  "confidence": 0.95,
+  "returncode": 0,
+  "generated_at": "2026-10-06T13:52:56.743628+00:00"
+}

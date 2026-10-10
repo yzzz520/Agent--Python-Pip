@@ -1,0 +1,7 @@
+.env
+.venv/
+.idea/
+.runner_venvs/
+llm_cache/
+__pycache__/
+*.pyc

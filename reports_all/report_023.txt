@@ -1,0 +1,24 @@
+======================================================================
+【失败归因分析报告】 - 案例: 023 - 源文件: error_case_023.txt
+======================================================================
+
+0. 来源信息：
+   - repo        : EleutherAI/gpt-neox
+   - path        : requirements/requirements.txt
+   - commit      : cf40e42142694e40aab158b6c81ff3f1d4fc921a
+   - priority    : P0
+
+1. 失败类型：
+   - build_failure (confidence=0.85)
+   - pip returncode: 1
+
+2. 根因分析：
+   依赖需要本地编译，但构建过程失败。
+
+3. 证据行：
+   - ERROR: Failed to build 'deepspeed' when git checkout -q 91d1c55ba037b5ada99ae14884dff87a4dc5b9ea
+
+4. 修复建议：
+   - 安装对应的编译工具链（如 MSVC Build Tools）。
+   - 优先选择提供预编译 wheel 的版本或平台。
+======================================================================

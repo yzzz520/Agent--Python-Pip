@@ -1,0 +1,45 @@
+{
+  "case_id": "009",
+  "source_error_file": "error_case_009.txt",
+  "repo": "apache/superset",
+  "path": "requirements/base.txt",
+  "commit_sha": "ce39d221aacc6d6d1d9817d7fb9b42ac3fe5daae",
+  "priority": "P0",
+  "model": "deepseek-flash",
+  "prompt_version": "attribution_v2",
+  "failure_type": "invalid_local_reference",
+  "root_cause": "requirements 中的本地可编辑依赖 `-e ./superset-core` 在当前工作目录下不存在（复制的 requirements 文件脱离了仓库目录结构），pip 无法将其解析为合法的本地路径或 VCS URL。",
+  "evidence": [
+    "ERROR: ./superset-core is not a valid editable requirement.",
+    "It should either be a path to a local project or a VCS URL (beginning with bzr+http, ... git+file, hg+file, ... svn+file).",
+    "-e ./superset-core  # via apache-superset (pyproject.toml)",
+    "command: pip install -r D:\\...\\requirements_all\\requirements_009.txt --dry-run",
+    "returncode    : 1"
+  ],
+  "suggestions": [
+    "在仓库根目录（存在 superset-core/ 子目录的位置）执行 pip install，或先 git clone apache/superset 再安装",
+    "将 `-e ./superset-core` 改为相对/绝对真实路径，例如 `-e ./superset/superset-core` 或完整本地路径",
+    "若只需验证依赖解析，可临时删除该本地可编辑行或改为 `-e git+https://github.com/apache/superset.git#egg=apache-superset-core&subdirectory=superset-core`",
+    "安装前确认 requirements 文件与其引用的本地相对路径保持同仓库结构，避免单独复制文件"
+  ],
+  "confidence": 0.9,
+  "evidence_verified": [
+    "ERROR: ./superset-core is not a valid editable requirement.",
+    "returncode    : 1"
+  ],
+  "evidence_unverified": [
+    "It should either be a path to a local project or a VCS URL (beginning with bzr+http, ... git+file, hg+file, ... svn+file).",
+    "-e ./superset-core  # via apache-superset (pyproject.toml)",
+    "command: pip install -r D:\\...\\requirements_all\\requirements_009.txt --dry-run"
+  ],
+  "returncode": 1,
+  "log_truncated": false,
+  "latency_ms": 3092,
+  "finish_reason": "stop",
+  "input_tokens": 5043,
+  "output_tokens": 515,
+  "total_tokens": 5558,
+  "cached": false,
+  "generated_at": "2026-10-10T20:04:46.074427+00:00",
+  "raw_response": "{\"failure_type\": \"invalid_local_reference\", \"root_cause\": \"requirements 中的本地可编辑依赖 `-e ./superset-core` 在当前工作目录下不存在（复制的 requirements 文件脱离了仓库目录结构），pip 无法将其解析为合法的本地路径或 VCS URL。\", \"evidence\": [\"ERROR: ./superset-core is not a valid editable requirement.\", \"It should either be a path to a local project or a VCS URL (beginning with bzr+http, ... git+file, hg+file, ... svn+file).\", \"-e ./superset-core  # via apache-superset (pyproject.toml)\", \"command: pip install -r D:\\\\...\\\\requirements_all\\\\requirements_009.txt --dry-run\", \"returncode    : 1\"], \"suggestions\": [\"在仓库根目录（存在 superset-core/ 子目录的位置）执行 pip install，或先 git clone apache/superset 再安装\", \"将 `-e ./superset-core` 改为相对/绝对真实路径，例如 `-e ./superset/superset-core` 或完整本地路径\", \"若只需验证依赖解析，可临时删除该本地可编辑行或改为 `-e git+https://github.com/apache/superset.git#egg=apache-superset-core&subdirectory=superset-core`\", \"安装前确认 requirements 文件与其引用的本地相对路径保持同仓库结构，避免单独复制文件\"], \"confidence\": 0.9}"
+}

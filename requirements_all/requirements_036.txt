@@ -1,0 +1,31 @@
+# Progress bars on iterators
+tqdm
+
+# Downloading data and other files
+requests
+
+# Optional NLP tools
+nltk
+spacy
+sacremoses
+git+https://github.com/jekbradbury/revtok.git
+
+# Documentation
+Sphinx
+
+# Required for tests only:
+
+# Run unit tests
+pytest
+expecttest
+parameterized
+
+# Lets pytest find our code by automatically modifying PYTHONPATH
+pytest-pythonpath
+
+# Coverage statistics
+pytest-cov
+codecov
+
+# To parse untrusted XML data
+defusedxml

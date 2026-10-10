@@ -1,0 +1,45 @@
+{
+  "case_id": "005",
+  "source_error_file": "error_case_005.txt",
+  "repo": "NVIDIA/TensorRT-LLM",
+  "path": "requirements.txt",
+  "commit_sha": "bba2b1763589d5d2e81dbd0cc30ae4a5f82690e8",
+  "priority": "P0",
+  "model": "deepseek-flash",
+  "prompt_version": "attribution_v2",
+  "failure_type": "no_matching_distribution",
+  "root_cause": "在当前环境（Windows + Python 3.10）上，PyPI/pytorch 索引里没有 nvidia-nccl-cu13==2.30.7 这个分发包（仅存在 0.0.0a0），且大量候选版本因 Requires-Python >=3.11/>=3.12 被跳过，导致解析直接失败。",
+  "evidence": [
+    "ERROR: Could not find a version that satisfies the requirement nvidia-nccl-cu13==2.30.7 (from versions: 0.0.0a0)",
+    "ERROR: No matching distribution found for nvidia-nccl-cu13==2.30.7",
+    "ERROR: Ignored the following versions that require a different python version: 2.3.0 Requires-Python >=3.11; ... 4.0.0a13 Requires-Python >=3.12",
+    "python: D:\\miniconda3\\envs\\agent_test\\python.exe; pip 26.2.1 (python 3.10); run_mode: dry-run; returncode: 1",
+    "requirements 中显式声明：nvidia-nccl-cu13==2.30.7（NCCL 与 CUDA 13 容器版本绑定）"
+  ],
+  "suggestions": [
+    "在 Linux + CUDA 13 的 NGC 容器内安装：nvidia-nccl-cu13 这类 +cu13 包通常不发布 Windows/py3.10 轮子，Docker 环境才能命中。",
+    "升级解释器到 Python 3.11/3.12（日志显示大量版本要求 >=3.11），再重试解析。",
+    "若必须在当前环境做依赖解析验证，临时移除或放宽 nvidia-nccl-cu13 的精确 pin（该包由容器自带 NCCL 提供）。",
+    "为 NVIDIA 相关包补充官方索引（如 --extra-index-url https://pypi.nvidia.com）并确认所选平台/版本确有对应 wheel。"
+  ],
+  "confidence": 0.78,
+  "evidence_verified": [
+    "ERROR: Could not find a version that satisfies the requirement nvidia-nccl-cu13==2.30.7 (from versions: 0.0.0a0)",
+    "ERROR: No matching distribution found for nvidia-nccl-cu13==2.30.7"
+  ],
+  "evidence_unverified": [
+    "ERROR: Ignored the following versions that require a different python version: 2.3.0 Requires-Python >=3.11; ... 4.0.0a13 Requires-Python >=3.12",
+    "python: D:\\miniconda3\\envs\\agent_test\\python.exe; pip 26.2.1 (python 3.10); run_mode: dry-run; returncode: 1",
+    "requirements 中显式声明：nvidia-nccl-cu13==2.30.7（NCCL 与 CUDA 13 容器版本绑定）"
+  ],
+  "returncode": 1,
+  "log_truncated": false,
+  "latency_ms": 9089,
+  "finish_reason": "stop",
+  "input_tokens": 4712,
+  "output_tokens": 1959,
+  "total_tokens": 6671,
+  "cached": false,
+  "generated_at": "2026-10-06T13:34:47.844338+00:00",
+  "raw_response": "{\"failure_type\": \"no_matching_distribution\", \"root_cause\": \"在当前环境（Windows + Python 3.10）上，PyPI/pytorch 索引里没有 nvidia-nccl-cu13==2.30.7 这个分发包（仅存在 0.0.0a0），且大量候选版本因 Requires-Python >=3.11/>=3.12 被跳过，导致解析直接失败。\", \"evidence\": [\"ERROR: Could not find a version that satisfies the requirement nvidia-nccl-cu13==2.30.7 (from versions: 0.0.0a0)\", \"ERROR: No matching distribution found for nvidia-nccl-cu13==2.30.7\", \"ERROR: Ignored the following versions that require a different python version: 2.3.0 Requires-Python >=3.11; ... 4.0.0a13 Requires-Python >=3.12\", \"python: D:\\\\miniconda3\\\\envs\\\\agent_test\\\\python.exe; pip 26.2.1 (python 3.10); run_mode: dry-run; returncode: 1\", \"requirements 中显式声明：nvidia-nccl-cu13==2.30.7（NCCL 与 CUDA 13 容器版本绑定）\"], \"suggestions\": [\"在 Linux + CUDA 13 的 NGC 容器内安装：nvidia-nccl-cu13 这类 +cu13 包通常不发布 Windows/py3.10 轮子，Docker 环境才能命中。\", \"升级解释器到 Python 3.11/3.12（日志显示大量版本要求 >=3.11），再重试解析。\", \"若必须在当前环境做依赖解析验证，临时移除或放宽 nvidia-nccl-cu13 的精确 pin（该包由容器自带 NCCL 提供）。\", \"为 NVIDIA 相关包补充官方索引（如 --extra-index-url https://pypi.nvidia.com）并确认所选平台/版本确有对应 wheel。\"], \"confidence\": 0.78}"
+}

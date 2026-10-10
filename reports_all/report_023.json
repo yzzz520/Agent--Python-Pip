@@ -1,0 +1,20 @@
+{
+  "case_id": "023",
+  "source_error_file": "error_case_023.txt",
+  "repo": "EleutherAI/gpt-neox",
+  "path": "requirements/requirements.txt",
+  "commit_sha": "cf40e42142694e40aab158b6c81ff3f1d4fc921a",
+  "priority": "P0",
+  "failure_type": "build_failure",
+  "root_cause": "依赖需要本地编译，但构建过程失败。",
+  "evidence": [
+    "ERROR: Failed to build 'deepspeed' when git checkout -q 91d1c55ba037b5ada99ae14884dff87a4dc5b9ea"
+  ],
+  "suggestions": [
+    "安装对应的编译工具链（如 MSVC Build Tools）。",
+    "优先选择提供预编译 wheel 的版本或平台。"
+  ],
+  "confidence": 0.85,
+  "returncode": 1,
+  "generated_at": "2026-10-06T14:05:42.185763+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "028",
+  "source_error_file": "error_case_028.txt",
+  "repo": "ymcui/Chinese-LLaMA-Alpaca",
+  "path": "requirements.txt",
+  "commit_sha": "5b8bb552e8b738da0f19a8e2cedf6db6b5c3fd14",
+  "priority": "P1",
+  "failure_type": "build_failure",
+  "root_cause": "依赖需要本地编译，但构建过程失败。",
+  "evidence": [
+    "ERROR: Failed to build 'git+https://github.com/huggingface/peft.git@13e53fc' when git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git 'c:\\users\\y\\appdata\\local\\temp\\pip-req-build-bjcv728v'"
+  ],
+  "suggestions": [
+    "安装对应的编译工具链（如 MSVC Build Tools）。",
+    "优先选择提供预编译 wheel 的版本或平台。"
+  ],
+  "confidence": 0.85,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.767100+00:00"
+}

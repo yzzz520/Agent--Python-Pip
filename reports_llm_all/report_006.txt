@@ -1,0 +1,29 @@
+======================================================================
+【LLM 归因报告】 - 案例: 006
+======================================================================
+
+0. 来源信息：
+   - repo   : microsoft/playwright-python
+   - path   : requirements.txt
+   - commit : 3705559cf55e558c8ed097a0098cf562c4ea3b06
+   - model  : deepseek-flash
+
+1. 失败类型：
+   - no_failure (confidence=0.99)
+
+2. 根因分析：
+   pip 以 dry-run 模式成功解析了全部三个依赖并得出可安装结果，进程返回码为 0，没有任何解析或构建错误。
+
+3. 证据行：
+   - returncode    : 0
+   - run_mode      : dry-run
+   - Using cached greenlet-3.5.6-cp310-cp310-win_amd64.whl.metadata (3.9 kB)
+   - Using cached pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+   - Would install greenlet-3.5.6 pyee-13.0.1 typing_extensions-4.16.0
+   - 其中可在原始日志中逐字验证: 5
+   - 未验证: 0
+
+4. 修复建议：
+   - 无需修复；依赖解析与 wheel 匹配均正常。
+   - 如需真正落盘安装，去掉 --dry-run 重新执行该命令。
+======================================================================

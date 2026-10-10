@@ -1,0 +1,15 @@
+{
+  "case_id": "030",
+  "source_error_file": "error_case_030.txt",
+  "repo": "OpenBMB/MiniCPM-V",
+  "path": "requirements.txt",
+  "commit_sha": "6ada8e8ef5e2979670fc94406f02b87c3c7e7ee0",
+  "priority": "P1",
+  "failure_type": "no_failure",
+  "root_cause": "pip 返回码为 0，本次解析未失败。",
+  "evidence": [],
+  "suggestions": [],
+  "confidence": 0.95,
+  "returncode": 0,
+  "generated_at": "2026-10-06T14:05:42.196753+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "005",
+  "source_error_file": "error_case_005.txt",
+  "repo": "NVIDIA/TensorRT-LLM",
+  "path": "requirements.txt",
+  "commit_sha": "bba2b1763589d5d2e81dbd0cc30ae4a5f82690e8",
+  "priority": "P0",
+  "failure_type": "python_version_mismatch",
+  "root_cause": "部分依赖的 Requires-Python 与当前解释器版本不匹配。",
+  "evidence": [
+    "ERROR: Could not find a version that satisfies the requirement nvidia-nccl-cu13==2.30.7 (from versions: 0.0.0a0)",
+    "ERROR: No matching distribution found for nvidia-nccl-cu13==2.30.7"
+  ],
+  "suggestions": [
+    "切换到满足 Requires-Python 的解释器版本。",
+    "或选择支持当前 Python 版本的另一组依赖版本。"
+  ],
+  "confidence": 0.9,
+  "returncode": 1,
+  "generated_at": "2026-10-06T13:52:56.668906+00:00"
+}

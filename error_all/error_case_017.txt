@@ -1,0 +1,56 @@
+======================================================================
+PIP RUN METADATA
+======================================================================
+timestamp_utc : 2026-10-06T13:47:36.842619+00:00
+run_mode      : dry-run
+python        : D:\miniconda3\envs\agent_test\python.exe
+pip           : pip 26.2.1 from D:\miniconda3\envs\agent_test\lib\site-packages\pip (python 3.10)
+returncode    : 1
+duration_sec  : 46.75
+command       : D:\miniconda3\envs\agent_test\python.exe -m pip install -r D:\项目：Agent 工具调用失败归因与自动恢复系统\requirements_all\requirements_017.txt --disable-pip-version-check --no-input --dry-run
+======================================================================
+STDOUT
+======================================================================
+Collecting torch==2.4.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_017.txt (line 1))
+  Downloading torch-2.4.0-cp310-cp310-win_amd64.whl.metadata (27 kB)
+Collecting torchvision==0.19.0 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_017.txt (line 2))
+  Downloading torchvision-0.19.0-1-cp310-cp310-win_amd64.whl.metadata (6.1 kB)
+Collecting colossalai>=0.4.4 (from -r D:\��Ŀ��Agent ���ߵ���ʧ�ܹ������Զ��ָ�ϵͳ\requirements_all\requirements_017.txt (line 3))
+  Downloading colossalai-0.5.0.tar.gz (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 70.1 kB/s  0:00:17
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+
+======================================================================
+STDERR
+======================================================================
+  error: subprocess-exited-with-error
+  
+  Getting requirements to build wheel did not run successfully.
+  exit code: 1
+  
+  [17 lines of output]
+  Traceback (most recent call last):
+    File "D:\miniconda3\envs\agent_test\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+      main()
+    File "D:\miniconda3\envs\agent_test\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+      json_out["return_val"] = hook(**hook_input["kwargs"])
+    File "D:\miniconda3\envs\agent_test\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 143, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "C:\Users\Y\AppData\Local\Temp\pip-build-env-debjyxme\overlay\Lib\site-packages\setuptools\build_meta.py", line 333, in get_requires_for_build_wheel
+      return self._get_build_requires(config_settings, requirements=[])
+    File "C:\Users\Y\AppData\Local\Temp\pip-build-env-debjyxme\overlay\Lib\site-packages\setuptools\build_meta.py", line 301, in _get_build_requires
+      self.run_setup()
+    File "C:\Users\Y\AppData\Local\Temp\pip-build-env-debjyxme\overlay\Lib\site-packages\setuptools\build_meta.py", line 520, in run_setup
+      super().run_setup(setup_script=setup_script)
+    File "C:\Users\Y\AppData\Local\Temp\pip-build-env-debjyxme\overlay\Lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
+      exec(code, locals())  # noqa: S102 # exec is intentional here
+    File "<string>", line 20, in <module>
+  RuntimeError: Windows is not supported yet. Please try again within the Windows Subsystem for Linux (WSL).
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'colossalai' when getting requirements to build wheel
+

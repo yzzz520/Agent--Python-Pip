@@ -1,0 +1,30 @@
+======================================================================
+【LLM 归因报告】 - 案例: 007
+======================================================================
+
+0. 来源信息：
+   - repo   : encode/httpx
+   - path   : requirements.txt
+   - commit : b5addb64f0161ff6bfe94c124ef76f6a1fba5254
+   - model  : deepseek-flash
+
+1. 失败类型：
+   - no_failure (confidence=0.97)
+
+2. 根因分析：
+   pip dry-run 成功解析全部依赖并给出 Would install 列表，返回码为 0，安装过程无失败。
+
+3. 证据行：
+   - returncode    : 0
+   - run_mode      : dry-run
+   - Would install Jinja2-3.1.6 Markdown-3.10.3 MarkupSafe-3.0.4 ... uvicorn-0.35.0
+   - Collecting mkautodoc==0.2.0 ... Preparing metadata (pyproject.toml): finished with status 'done'
+   - STDERR 为空
+   - 其中可在原始日志中逐字验证: 2
+   - 未验证: 3
+
+4. 修复建议：
+   - 无需修复；如需实际安装可去掉 --dry-run 重跑
+   - 可保留该 requirements.txt 作为可复现的工具链锁定文件
+   - 若担心截断日志，可加 -v 以获取更完整解析信息
+======================================================================

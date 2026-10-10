@@ -1,0 +1,15 @@
+{
+  "case_id": "014",
+  "source_error_file": "error_case_014.txt",
+  "repo": "kohya-ss/sd-scripts",
+  "path": "requirements.txt",
+  "commit_sha": "690ea7f96c23182352ec63def76d431c6120bd2f",
+  "priority": "P1",
+  "failure_type": "no_failure",
+  "root_cause": "pip 返回码为 0，本次解析未失败。",
+  "evidence": [],
+  "suggestions": [],
+  "confidence": 0.95,
+  "returncode": 0,
+  "generated_at": "2026-10-06T13:52:56.711905+00:00"
+}
