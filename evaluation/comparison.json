@@ -1,41 +1,402 @@
 {
-  "generated_at": "2026-10-10T20:29:39.701437+00:00",
+  "generated_at": "2026-10-28T14:22:27.570300+00:00",
   "labels_source": "golden_labels.json",
   "needs_human_review": true,
-  "rows": [],
+  "rows": [
+    {
+      "case_id": "000",
+      "golden": "dependency_conflict",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "dependency_conflict",
+          "confidence": 0.88,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "dependency_conflict",
+          "confidence": 0.93,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 2893,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "dependency_conflict",
+          "confidence": 0.92,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 23528,
+          "fix_verified": true,
+          "tool_calls": 6
+        }
+      }
+    },
+    {
+      "case_id": "001",
+      "golden": "no_failure",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.97,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 8902,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 1.0,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 7795,
+          "fix_verified": false,
+          "tool_calls": 0
+        }
+      }
+    },
+    {
+      "case_id": "002",
+      "golden": "no_failure",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.98,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 3269,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 1.0,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 3872,
+          "fix_verified": false,
+          "tool_calls": 0
+        }
+      }
+    },
+    {
+      "case_id": "003",
+      "golden": "no_failure",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.98,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 7852,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 1.0,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 6889,
+          "fix_verified": false,
+          "tool_calls": 0
+        }
+      }
+    },
+    {
+      "case_id": "004",
+      "golden": "no_failure",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.98,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 7604,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.99,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 6691,
+          "fix_verified": false,
+          "tool_calls": 0
+        }
+      }
+    },
+    {
+      "case_id": "005",
+      "golden": "no_matching_distribution",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "python_version_mismatch",
+          "confidence": 0.9,
+          "correct": true,
+          "strict_correct": false,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_matching_distribution",
+          "confidence": 0.78,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 6671,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_matching_distribution",
+          "confidence": 0.85,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 39437,
+          "fix_verified": false,
+          "tool_calls": 6
+        }
+      }
+    },
+    {
+      "case_id": "006",
+      "golden": "no_failure",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.99,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 1349,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 1.0,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 1930,
+          "fix_verified": false,
+          "tool_calls": 0
+        }
+      }
+    },
+    {
+      "case_id": "007",
+      "golden": "no_failure",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 0.97,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 7779,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "no_failure",
+          "confidence": 1.0,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 6802,
+          "fix_verified": false,
+          "tool_calls": 0
+        }
+      }
+    },
+    {
+      "case_id": "008",
+      "golden": "python_version_mismatch",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "python_version_mismatch",
+          "confidence": 0.9,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "python_version_mismatch",
+          "confidence": 0.96,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 7312,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "python_version_mismatch",
+          "confidence": 0.95,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 43724,
+          "fix_verified": true,
+          "tool_calls": 4
+        }
+      }
+    },
+    {
+      "case_id": "009",
+      "golden": "invalid_local_reference",
+      "approaches": {
+        "rule": {
+          "available": true,
+          "failure_type": "unknown",
+          "confidence": 0.3,
+          "correct": false,
+          "strict_correct": false,
+          "total_tokens": 0,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "llm": {
+          "available": true,
+          "failure_type": "invalid_local_reference",
+          "confidence": 0.9,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 5558,
+          "fix_verified": null,
+          "tool_calls": null
+        },
+        "agent": {
+          "available": true,
+          "failure_type": "invalid_local_reference",
+          "confidence": 0.9,
+          "correct": true,
+          "strict_correct": true,
+          "total_tokens": 28679,
+          "fix_verified": true,
+          "tool_calls": 3
+        }
+      }
+    }
+  ],
   "summary": {
     "rule": {
-      "evaluated": 0,
-      "correct": 0,
-      "accuracy": null,
-      "strict_correct": 0,
-      "strict_accuracy": null,
-      "average_confidence": null,
+      "evaluated": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "strict_correct": 8,
+      "strict_accuracy": 0.8,
+      "average_confidence": 0.868,
       "total_tokens": 0,
       "fix_verified": 0,
       "total_tool_calls": 0
     },
     "llm": {
-      "evaluated": 0,
-      "correct": 0,
-      "accuracy": null,
-      "strict_correct": 0,
-      "strict_accuracy": null,
-      "average_confidence": null,
-      "total_tokens": 0,
+      "evaluated": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "strict_correct": 10,
+      "strict_accuracy": 1.0,
+      "average_confidence": 0.944,
+      "total_tokens": 59189,
       "fix_verified": 0,
       "total_tool_calls": 0
     },
     "agent": {
-      "evaluated": 0,
-      "correct": 0,
-      "accuracy": null,
-      "strict_correct": 0,
-      "strict_accuracy": null,
-      "average_confidence": null,
-      "total_tokens": 0,
-      "fix_verified": 0,
-      "total_tool_calls": 0
+      "evaluated": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "strict_correct": 10,
+      "strict_accuracy": 1.0,
+      "average_confidence": 0.961,
+      "total_tokens": 169347,
+      "fix_verified": 3,
+      "total_tool_calls": 19
     }
   }
 }
