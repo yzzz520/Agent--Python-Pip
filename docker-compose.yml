@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PIPATTR_DATA_DIR: /app
+      PIPATTR_DB: /app/backend/data/pipattr.db
+      PIPATTR_AUTOSEED: "1"
+    volumes:
+      # keep the sqlite file (and ingested rows) across container restarts
+      - ./backend/data:/app/backend/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

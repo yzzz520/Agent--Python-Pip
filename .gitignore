@@ -5,3 +5,7 @@
 llm_cache/
 __pycache__/
 *.pyc
+.pytest_cache/
+backend/data/
+*.db
+*.db-journal
